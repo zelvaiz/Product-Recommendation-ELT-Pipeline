@@ -12,7 +12,7 @@ def get_dataframe(path):
     return df
 
 def generate_random_data(size):
-    # Expanded list of random names
+    
     first_names = [
         'John', 'Jane', 'Alex', 'Emily', 'Chris', 'Katie', 'Michael', 'Sarah',
         'David', 'Laura', 'James', 'Linda', 'Robert', 'Patricia', 'Charles', 'Barbara',
@@ -27,10 +27,9 @@ def generate_random_data(size):
     ]
     names = [random.choice(first_names) + ' ' + random.choice(last_names) for _ in range(size)]
     
-    # Generate random ages between 18 and 70
+
     ages = np.random.randint(18, 71, size)
     
-    # Expanded list of random countries
     countries = [
         'USA', 'Canada', 'UK', 'Germany', 'France', 'Australia', 'India', 'China', 'Brazil', 
         'South Africa', 'Mexico', 'Italy', 'Spain', 'Russia', 'Japan', 'South Korea',
@@ -39,20 +38,16 @@ def generate_random_data(size):
     ]
     country = [random.choice(countries) for _ in range(size)]
     
-    # Generate random genders
     genders = ['Male', 'Female', 'Other']
     gender = [random.choice(genders) for _ in range(size)]
     
     return names, ages, country, gender
 
 def add_column_header(df):
-    # Rename the single existing column to 'user_id'
     df.columns = ['user_id']
     
-    # Generate random data
     names, ages, countries, genders = generate_random_data(len(df))
     
-    # Add new columns with generated random data
     df['name'] = names
     df['age'] = ages
     df['country'] = countries
