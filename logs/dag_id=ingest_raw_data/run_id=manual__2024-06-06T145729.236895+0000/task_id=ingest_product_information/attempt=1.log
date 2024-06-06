@@ -1,0 +1,33 @@
+[2024-06-06T14:58:21.169+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ingest_raw_data.ingest_product_information manual__2024-06-06T14:57:29.236895+00:00 [queued]>
+[2024-06-06T14:58:21.184+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ingest_raw_data.ingest_product_information manual__2024-06-06T14:57:29.236895+00:00 [queued]>
+[2024-06-06T14:58:21.186+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-06-06T14:58:21.205+0000] {taskinstance.py:2214} INFO - Executing <Task(AirbyteTriggerSyncOperator): ingest_product_information> on 2024-06-06 14:57:29.236895+00:00
+[2024-06-06T14:58:21.210+0000] {standard_task_runner.py:60} INFO - Started process 660 to run task
+[2024-06-06T14:58:21.213+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'ingest_raw_data', 'ingest_product_information', 'manual__2024-06-06T14:57:29.236895+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/ingest_data.py', '--cfg-path', '/tmp/tmp42m7bn3f']
+[2024-06-06T14:58:21.215+0000] {standard_task_runner.py:88} INFO - Job 92: Subtask ingest_product_information
+[2024-06-06T14:58:21.278+0000] {task_command.py:423} INFO - Running <TaskInstance: ingest_raw_data.ingest_product_information manual__2024-06-06T14:57:29.236895+00:00 [running]> on host 527807d72754
+[2024-06-06T14:58:21.390+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ingest_raw_data' AIRFLOW_CTX_TASK_ID='ingest_product_information' AIRFLOW_CTX_EXECUTION_DATE='2024-06-06T14:57:29.236895+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-06T14:57:29.236895+00:00'
+[2024-06-06T14:58:21.404+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:21.845+0000] {airbyte.py:86} INFO - Job 80 was submitted to Airbyte Server
+[2024-06-06T14:58:21.846+0000] {airbyte.py:88} INFO - Waiting for job 80 to complete
+[2024-06-06T14:58:24.904+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:27.969+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:31.008+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:34.028+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:37.048+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:40.068+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:43.087+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:46.109+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:49.127+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:52.149+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:55.166+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:58:58.191+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:01.219+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:04.247+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:07.271+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:10.291+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:13.311+0000] {base.py:83} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-06-06T14:59:13.324+0000] {airbyte.py:112} INFO - Job 80 completed successfully
+[2024-06-06T14:59:13.352+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=ingest_raw_data, task_id=ingest_product_information, execution_date=20240606T145729, start_date=20240606T145821, end_date=20240606T145913
+[2024-06-06T14:59:13.410+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-06T14:59:13.439+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
