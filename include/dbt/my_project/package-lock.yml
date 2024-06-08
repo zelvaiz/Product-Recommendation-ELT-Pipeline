@@ -1,0 +1,6 @@
+packages:
+  - package: dbt-labs/snowplow
+    version: 0.7.0
+  - git: https://github.com/dbt-labs/dbt-utils.git
+    revision: 064c2abee80816ea855de32e66e54e96d9916677
+sha1_hash: 358a0bb8b4b9176bc73892637ed178308d1848b7

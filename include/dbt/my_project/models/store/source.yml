@@ -1,0 +1,13 @@
+version: 2 
+sources:
+  - name: capstone_data
+    schema: Project_Capstone
+    tables: 
+      - name: user
+      - name: product
+      - name: purchased
+      - name: cart
+      - name: country
+      - name: gender
+      - name: tags
+      - name: review
