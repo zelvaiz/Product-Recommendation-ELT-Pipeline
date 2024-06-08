@@ -1,5 +1,3 @@
--- models/customer.sql
-
 WITH source AS (
     SELECT 
         CAST(user_id AS INTEGER) AS user_id,

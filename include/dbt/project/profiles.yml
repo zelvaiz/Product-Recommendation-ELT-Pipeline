@@ -1,4 +1,4 @@
-my_project:
+project:
   outputs:
     dev:
       dataset: Project_Capstone
