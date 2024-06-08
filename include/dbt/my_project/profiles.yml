@@ -1,0 +1,14 @@
+my_project:
+  outputs:
+    dev:
+      dataset: Project_Capstone
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: latihan-cloud-alterra-82d3d61abdd0.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: latihan-cloud-alterra
+      threads: 1
+      type: bigquery
+  target: dev
