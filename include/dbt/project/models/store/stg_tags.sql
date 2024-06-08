@@ -3,7 +3,7 @@ with source as (
         CAST(tag_id as INTEGER) as tag_id,
         tag_name
 
-    FROM {{source('capstone_data', 'tags')}}
+    FROM {{source('capstone_data', 'tags2')}}
     WHERE tag_id is not null 
 )
 

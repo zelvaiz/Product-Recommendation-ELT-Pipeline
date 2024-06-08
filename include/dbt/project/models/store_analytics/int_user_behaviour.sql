@@ -1,8 +1,11 @@
 with source as (
     select 
-        c.user_id,
-        c.product_id,
-        c.view_duration,
-        c.cart_time_days,
-        c.read_review,
+        user_id,
+        product_id,
+        view_duration,
+        cart_time_days,
+        read_review
+    from {{ref('stg_cart')}}
 )
+
+select * from source
