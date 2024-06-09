@@ -36,3 +36,5 @@ models:
       +materialized: table
     store_analytics:
       +materialized: table
+    datamart:
+      +materialized: table

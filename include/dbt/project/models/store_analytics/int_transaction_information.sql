@@ -1,11 +1,13 @@
 with source as (
     select
         pu.purchased_id as receipt_id,
+        u.user_id,
         u.name,
+        p.product_id,
         p.product_name,
         p.price,
         pu.quantity,
-        (p.price*pu.quantity) as total_price
+        round(p.price*pu.quantity, 2) as total_price
     from
         {{ref('stg_purchased')}} pu
     left join
