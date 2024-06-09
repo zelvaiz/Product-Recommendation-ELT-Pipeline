@@ -8,6 +8,7 @@ with base as (
         pi.product_name,
         pi.price,
         pi.rating,
+        pi.rating_name,
         pi.tag_name
     from 
         {{ ref('int_user_behaviour') }} u

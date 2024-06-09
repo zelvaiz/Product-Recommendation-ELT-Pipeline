@@ -4,6 +4,7 @@ with source as (
         p.product_name,
         p.price,
         r.rating,
+        r.rating_name,
         t.tag_name
 from 
     {{ref('stg_product')}} p

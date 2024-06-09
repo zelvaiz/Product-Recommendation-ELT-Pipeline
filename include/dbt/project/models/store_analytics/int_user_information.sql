@@ -4,6 +4,7 @@ with source as (
         u.name,
         u.email,
         u.age,
+        u.age_category,
         g.gender_name as gender,
         c.country_name as country
     FROM
