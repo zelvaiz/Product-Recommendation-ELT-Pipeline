@@ -6,6 +6,7 @@ from cosmos.config import RenderConfig
 from include.dbt.project.cosmos_config import DBT_CONFIG, DBT_PROJECT_CONFIG
 from airflow.providers.airbyte.operators.airbyte import AirbyteTriggerSyncOperator
 from airflow.models.baseoperator import chain
+from airflow.operators.bash_operator import BashOperator
 
 
 USER_CONN_ID = 'b51d16e8-00e8-4945-8998-8ffcc6c53d97'
@@ -105,20 +106,25 @@ def extract_load_transform():
     def airbyte_job_done():
         return True 
     
-    capstone_data = DbtTaskGroup(
-        group_id = "dbtTaskGroup",
-        project_config = DBT_PROJECT_CONFIG,
-        profile_config = DBT_CONFIG,
-        render_config = RenderConfig(
-            load_method = LoadMode.DBT_LS,
-            select=['path:models']
+    @task_group(group_id='DBTTaskGroup')
+    def transfrom_process():
+    
+        dbt_run = BashOperator(
+            task_id="dbt_run",
+            bash_command="cd /opt/airflow/include/dbt/project; source /opt/airflow/dbt_venv/bin/activate; dbt run --profiles-dir /opt/airflow/include/dbt/project/",
+            
         )
-    )
+
+        dbt_test = BashOperator(
+            task_id="dbt_test",
+            bash_command="cd /opt/airflow/include/dbt/project; source /opt/airflow/dbt_venv/bin/activate; dbt test --profiles-dir /opt/airflow/include/dbt/project/",
+        )
+        dbt_run >> dbt_test
 
     chain(
         extract_process(),
         airbyte_job_done(),
-        capstone_data
+        transfrom_process()
     )
 
 extract_load_transform()

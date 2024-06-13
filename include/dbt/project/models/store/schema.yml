@@ -53,3 +53,32 @@ models:
         description: "Unique identifier for each country"
         data_tests:
           - not_null
+
+  - name: stg_product
+    columns:
+      - name: product_id
+        description: "Unique identifier for each product"
+        data_tests:
+          - unique
+          - not_null
+      - name: tag_id
+        description: "Unique identifier for each tag"
+        data_tests:
+          - not_null
+
+  - name: stg_tags
+    columns:
+      - name: tag_id
+        description: "Unique identifier for each tag"
+        data_tests:
+          - unique
+          - not_null
+  
+  - name: stg_purchased
+    columns:
+      - name: purchased_id
+        description: "Unique identifier for each purchased"
+        data_tests:
+          - unique
+          - not_null
+      

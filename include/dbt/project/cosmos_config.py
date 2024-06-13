@@ -8,6 +8,6 @@ DBT_CONFIG = ProfileConfig(
 )
 
 DBT_PROJECT_CONFIG = ProjectConfig(
-    dbt_project_path=('/opt/airflow/include/dbt/project/')
+    dbt_project_path=Path('/opt/airflow/include/dbt/project/')
 )
 

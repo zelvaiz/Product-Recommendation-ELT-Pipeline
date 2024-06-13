@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_transaction_information
+    description: "transaction information intermediate area "
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - receipt_id
+            - product_name
+
