@@ -20,6 +20,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 ## Start Docker Compose
 - git clone this code to local
 - run docker compose
+
   ```
   docker compose up -d
   ``` 
@@ -29,9 +30,24 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 - Input Bucket in search text box 
 - Create new Bucket 
 ![bucket](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/Bucket.png) 
-
 - Upload CSV file to the Bucket folder
 ![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket_folder.jpg) 
-
 - Setting CSV Bucket file to the public 
 
+## Define source connection in Airbyte
+- Open url http://localhost:8000 for Airbyte UI
+- Click New Connection
+
+### Data Source From CSV
+- In Define source, choose setup new source
+- Input csv in search text box then click File
+- Input dataset name and choose file format csv 
+- For Storage Provider choose HTTPS : Public Web and input URL : 
+Product: https://storage.googleapis.com/project_capstone_alterra_2/product%20(1).csv
+Cart: https://storage.googleapis.com/project_capstone_alterra_2/cart.csv
+Country: https://storage.googleapis.com/project_capstone_alterra_2/country.csv
+Gender: https://storage.googleapis.com/project_capstone_alterra_2/gender.csv
+Purchased: https://storage.googleapis.com/project_capstone_alterra_2/purchased.csv
+Review: https://storage.googleapis.com/project_capstone_alterra_2/review.csv
+Tags: https://storage.googleapis.com/project_capstone_alterra_2/tags%20(1).csv
+- Click set up source 
