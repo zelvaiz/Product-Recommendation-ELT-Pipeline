@@ -43,18 +43,43 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 - Input csv in search text box then click File
 - Input dataset name and choose file format csv 
 - For Storage Provider choose HTTPS : Public Web and input URL : 
-https://storage.googleapis.com/project_capstone_alterra_2/product%20(1).csv (Product)
-Cart: 
-https://storage.googleapis.com/project_capstone_alterra_2/cart.csv
-Country: 
-https://storage.googleapis.com/project_capstone_alterra_2/country.csv
-Gender: 
-https://storage.googleapis.com/project_capstone_alterra_2/gender.csv
-Purchased: 
-https://storage.googleapis.com/project_capstone_alterra_2/purchased.csv
-Review: 
-https://storage.googleapis.com/project_capstone_alterra_2/review.csv
-Tags: 
-https://storage.googleapis.com/project_capstone_alterra_2/tags%20(1).csv
+https://storage.googleapis.com/project_capstone_alterra_2/product%20(1).csv (Product) 
+https://storage.googleapis.com/project_capstone_alterra_2/cart.csv (Cart) 
+https://storage.googleapis.com/project_capstone_alterra_2/country.csv (Country)
+https://storage.googleapis.com/project_capstone_alterra_2/gender.csv (Gender) 
+https://storage.googleapis.com/project_capstone_alterra_2/purchased.csv (Purchased)
+https://storage.googleapis.com/project_capstone_alterra_2/review.csv (Review) 
+https://storage.googleapis.com/project_capstone_alterra_2/tags%20(1).csv (Tags)
 - Click set up source 
+
+### Data Source From Postgres
+- In Define source, choose setup new source
+- Input postgres in search text box then click File
+- Fill:
+```bash
+Host : localhost
+Port : 5441
+Database_Name : mudb
+Username: postgres
+Password : admin
+```
+![postgres](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/postgres.jpg) 
+- Click set up source 
+
+### Define destination connection in Airbyte (To Bigquery)
+- In Define destination, choose setup new destination
+- Input Bigquery in search text box
+- Fill the colum for Bigquery Connnection, please refer to this article [Airflow_Bigquery](https://docs.airbyte.com/integrations/destinations/bigquery?_gl=1*106oqw*_gcl_au*MjEwNjIyMzgwMi4xNzE3NTc2NjY0)
+![airflow_bigquery](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bigquery.jpg) 
+- Click Setup destination
+
+### Configure connection in Airbyte
+- In Connection, input connection name
+- In Configuration, Choose schedule type manual(because airbyte job will trigger by airflow)
+- Click Setup connection
+- Click Sync Now
+
+## Data Modelling With DBT
+
+
 
