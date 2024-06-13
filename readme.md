@@ -29,6 +29,6 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 - Create new Bucket 
 ![bucket](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/Bucket.png) 
 - Upload CSV file to the Bucket folder
-![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket%20folder.png) 
+![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket_folder.jpg) 
 - Setting CSV Bucket file to the public 
 
