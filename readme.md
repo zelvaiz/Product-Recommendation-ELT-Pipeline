@@ -35,7 +35,10 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 - Setting CSV Bucket file to the public 
 
 ## Make connection in Airbyte
-- Open url http://localhost:8000 for Airbyte UI
+Open url http://localhost:8000 for Airbyte UI
+- User: `airflow`
+- Password: `airflow`
+
 - Click New Connection
 
 ### Data Source From CSV
@@ -81,5 +84,116 @@ Password : admin
 
 ## Data Modelling With DBT
 
+### Setup venv and install DBT
 
+Move to directory include and make new directory
+```bash
+cd include
+mkdir dbt
+```
+
+Setup venv and install dbt-bigquery
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install dbt-bigquery # Note: DBT has many DBMS adapter
+```
+
+### Create requirements.txt
+
+In order to keep track what packages you have installed, it is better to make an up-to-date list of `requirements.txt`.
+
+You can list your dbt-related packages by invoking and Put the list into `requirements.txt`.
+
+
+```bash
+pip freeze | grep dbt >> requirement.txt
+```
+
+The output will be similar to:
+
+```
+dbt-core==1.6.3
+dbt-extractor==0.4.1
+dbt-postgres==1.6.3
+dbt-semantic-interfaces==0.2.0
+```
+
+If you need to install other packages, you should add them into `requirements.txt` as well
+
+Next time you want to install `dbt`, you can simply run `pip install -r requirements.txt`
+
+### Setup DBT project
+
+```bash
+dbt init project
+```
+
+### Setup DBT Profile
+
+Move to directory project and make a new file, name 'profiles.yml'
+
+```bash
+cd project
+touch profiles.yml
+```
+
+You can set your `profiles.yml` as follow:
+
+```yml
+project:
+  outputs:
+    dev:
+      dataset: Project_Capstone
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: latihan-cloud-alterra-82d3d61abdd0.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: latihan-cloud-alterra
+      threads: 1
+      type: bigquery
+  target: dev
+```
+
+### Setup DBT Project configuration
+
+To setup DBT project configuration, you can edit `project/dbt_project.yml`.
+
+Make sure your `models` looks like this:
+
+```yml
+models:
+  project:
+    # Config indicated by + and applies to all files under models/example/
+    store:
+      +materialized: table
+    store_analytics:
+      +materialized: table
+    datamart:
+      +materialized: table
+```
+
+### Defining Source
+
+To define source, you can put the following YAML into `models/store/source.yml`
+
+```yml
+version: 2 
+sources:
+  - name: capstone_data
+    schema: Project_Capstone
+    tables: 
+      - name: user
+      - name: product
+      - name: purchased
+      - name: cart
+      - name: country
+      - name: gender
+      - name: tags
+      - name: review
+      - name: product2
+      - name: tags2
+```
 
