@@ -25,10 +25,13 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
   ``` 
 
 ## Make Bukcet in Google Cloud Service (CSV Files)
-- Input Bucket in search text box then click File
+- Open Google Cloud Service
+- Input Bucket in search text box 
 - Create new Bucket 
 ![bucket](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/Bucket.png) 
+
 - Upload CSV file to the Bucket folder
 ![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket_folder.jpg) 
+
 - Setting CSV Bucket file to the public 
 
