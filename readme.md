@@ -13,7 +13,22 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 3. Data Orchestration - Menggunakan Airflow untuk melakukan otomatisasi terhadap pipeline yang telah dibetuk.
 4. Data Reporting/Analytics - Menggunakan Looker Studio untuk membuat dashboard untuk tujuan pelaporan atau analisis.
 
-## ELT Data Architecture & Data Modelling
+## ELT Data Architecture 
 
-![data_architecture](https://github.com/saipulrx/airbyte-dbt-airflow-demo/blob/main/assets/elt_data_architecture_modelling.png) C:\Alterra\Project-Capstone\assets\ELT Archicteture.png
+![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT%20Archicteture.png) 
+
+## Start Docker Compose
+- git clone this code to local
+- run docker compose
+  ```
+  docker compose up -d
+  ``` 
+
+## Make Bukcet in Google Cloud Service (CSV Files)
+- Input Bucket in search text box then click File
+- Create new Bucket 
+![bucket](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/Bucket.png) 
+- Upload CSV file to the Bucket folder
+![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket%20folder.png) 
+- Setting CSV Bucket file to the public 
 
