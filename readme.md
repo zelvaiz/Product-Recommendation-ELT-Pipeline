@@ -43,8 +43,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 - Input csv in search text box then click File
 - Input dataset name and choose file format csv 
 - For Storage Provider choose HTTPS : Public Web and input URL : 
-Product: 
-https://storage.googleapis.com/project_capstone_alterra_2/product%20(1).csv
+https://storage.googleapis.com/project_capstone_alterra_2/product%20(1).csv (Product)
 Cart: 
 https://storage.googleapis.com/project_capstone_alterra_2/cart.csv
 Country: 
