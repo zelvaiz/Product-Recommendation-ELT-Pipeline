@@ -25,7 +25,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
   docker compose up -d
   ``` 
 
-## Make Bukcet in Google Cloud Service (CSV Files)
+## Make Bucket in Google Cloud Service (CSV Files)
 - Open Google Cloud Service
 - Input Bucket in search text box 
 - Create new Bucket 
@@ -34,12 +34,13 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 ![bucket_folder](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bucket_folder.jpg) 
 - Setting CSV Bucket file to the public 
 
-## Make connection in Airbyte
+## Data Ingestion With Airbyte
+
+### Setup Connection for Airbyte
 Open url http://localhost:8000 for Airbyte UI
 - User: `airflow`
 - Password: `airflow`
-
-- Click New Connection
+Click New Connection
 
 ### Data Source From CSV
 - In Define source, choose setup new source
@@ -156,6 +157,7 @@ project:
       type: bigquery
   target: dev
 ```
+Note: Please fill in according to your respective bigquery information
 
 ### Setup DBT Project configuration
 
@@ -196,4 +198,121 @@ sources:
       - name: product2
       - name: tags2
 ```
+
+### Creating a Model
+
+We make 3 model directory under `models/store`, `models/store_analytics`, `models/data_mart`
+
+We will define as much as models as we need, but in this example, we only create a single model named `stg_user`.
+
+You can then define a `stg_user.sql` under the directory `models/store`:
+
+```sql
+WITH source AS (
+    SELECT 
+        CAST(user_id AS INTEGER) AS user_id,
+        name,
+        age,
+        {{age_category('age')}} as age_category,
+        email,
+        CAST(gender_id AS INTEGER) AS gender_id,
+        CAST(country_id AS INTEGER) AS country_id
+    FROM {{ source('capstone_data', 'user') }}
+    WHERE user_id IS NOT NULL
+)
+
+SELECT * FROM source
+```
+For more information about models, you can refer to the following link [Models](https://github.com/ahmadalpadani/Project-Capstone/tree/main/include/dbt/project/models)
+
+
+### Installing dbt package
+
+You can install additional dbt package by modifying `packages.yml` and invoking `dbt deps` afterwise.
+
+Make file `packages.yml` uder directory `dbt/project`
+
+Put the dbt utils packages to `packages.yml`
+```yml
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.2.0
+```
+
+Invoking `dbt deps`
+```bash
+dbt deps
+```
+See dbt documentation for more information: https://docs.getdbt.com/docs/build/packages
+
+### Add test
+
+You can add test to your model by modifying your `schema.yml`
+
+In this example, we will make test for intermediate directory (`models/store_analytics`) from dbt utils by modifying  `int_schema.yml`
+
+```yml
+version: 2
+
+models:
+  - name: int_transaction_information
+    description: "transaction information intermediate area "
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - receipt_id
+            - product_name
+```
+
+To see what kind of test you can pefrom, you can visit dbt_utils documentation: https://github.com/dbt-labs/dbt-utils
+
+### Creating a Macro
+
+Macro allows you to put reusable logic in one place.
+
+To setup DBT project configuration, you can edit `project/macros`.
+
+For example, we want to create an age category by adding a category according to the age of the customer (for example, if the age of the customer is between 13 to 19 years old, it is categorized as a teenager).
+
+In this case, you can create a file under the `macros` folder (for example, `macros/age_category.sql`)
+
+```sql
+{% macro age_category(column_name) %}
+    case
+        when {{column_name}} >= 30 then 'Adult'
+        when {{column_name}} >= 20 then 'Young Adult'
+        when {{column_name}} >= 13 then 'Teen'
+        when {{column_name}} >= 5 then 'Kid'
+        when {{column_name}} >= 0 then 'Baby'
+    end
+{% endmacro %}
+```
+
+Once you define the macro, you can call the macro in your model definition, in this case in `stg_user`
+
+```sql
+WITH source AS (
+    SELECT 
+        CAST(user_id AS INTEGER) AS user_id,
+        name,
+        age,
+        {{age_category('age')}} as age_category,
+        email,
+        CAST(gender_id AS INTEGER) AS gender_id,
+        CAST(country_id AS INTEGER) AS country_id
+    FROM {{ source('capstone_data', 'user') }}
+    WHERE user_id IS NOT NULL
+)
+
+SELECT * FROM source
+```
+For more information about models, you can refer to the following link [Macros](https://github.com/ahmadalpadani/Project-Capstone/tree/main/include/dbt/project/macros)
+
+
+## Create Airflow Dags for Trigger Airbyte and DBT Jobs
+
+Open url http://localhost:8000 for Airbyte UI
+- User: `airflow`
+- Password: `airflow`
+
 
