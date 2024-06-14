@@ -7,8 +7,8 @@ with base as (
         u.read_review,
         pi.product_name, -- hapus masukkan ke dim_product
         pi.price, -- hapus masukkan ke dim_product
-        pi.rating, 
-        pi.rating_name, 
+        pi.rating, -- hapus masukkan ke dim_product
+        pi.rating_name, -- hapus masukkan ke dim_product
         pi.tag_name --hapus masukkan ke dim_product
     from 
         {{ ref('int_user_behaviour') }} u
