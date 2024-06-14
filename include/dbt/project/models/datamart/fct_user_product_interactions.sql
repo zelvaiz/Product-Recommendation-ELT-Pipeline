@@ -5,11 +5,11 @@ with base as (
         u.view_duration,
         u.cart_time_days,
         u.read_review,
-        pi.product_name,
-        pi.price,
-        pi.rating,
-        pi.rating_name,
-        pi.tag_name
+        pi.product_name, -- hapus masukkan ke dim_product
+        pi.price, -- hapus masukkan ke dim_product
+        pi.rating, 
+        pi.rating_name, 
+        pi.tag_name --hapus masukkan ke dim_product
     from 
         {{ ref('int_user_behaviour') }} u
     left join
