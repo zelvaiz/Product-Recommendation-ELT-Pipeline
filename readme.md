@@ -321,6 +321,7 @@ Input connection id
 Choose connection type : Airbyte
 - host : airbyte-server
 - port : 8001
+
 Click Test
 Click Save
 
