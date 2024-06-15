@@ -264,7 +264,7 @@ models:
             - product_name
 ```
 
-To see what kind of test you can pefrom, you can visit dbt_utils documentation: https://github.com/dbt-labs/dbt-utils
+To see what kind of test you can perform, you can visit dbt_utils documentation: https://github.com/dbt-labs/dbt-utils
 
 ### Creating a Macro
 
@@ -306,7 +306,7 @@ WITH source AS (
 
 SELECT * FROM source
 ```
-For more information about models, you can refer to the following link [Macros](https://github.com/ahmadalpadani/Project-Capstone/tree/main/include/dbt/project/macros)
+For more information about other macros in this project, you can refer to the following link [Macros](https://github.com/ahmadalpadani/Project-Capstone/tree/main/include/dbt/project/macros)
 
 
 ## Data Orchestration With Airflow
