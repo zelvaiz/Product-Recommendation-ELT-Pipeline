@@ -311,22 +311,22 @@ For more information about models, you can refer to the following link [Macros](
 
 ## Data Orchestration With Airflow
 
-Open url http://localhost:8080 for Airflow UI
-- User: `airflow`
-- Password: `airflow`
+- Open url http://localhost:8080 for Airflow UI
+```
+User: `airflow`
+Password: `airflow`
+```
 
 ### Create Airbyte Connection in Airflow Web Server
-Click Admin --> Connections
-
-Input connection id
-
-Choose connection type : Airbyte
-- host : airbyte-server
-- port : 8001
-
-Click Test
-
-Click Save
+- Click Admin --> Connections
+- Input connection id
+- Choose connection type : Airbyte
+```
+host : airbyte-server
+port : 8001
+```
+- Click Test
+- Click Save
 
 ### Create DAG
 Move to directory dags, make a new file and copy paste code bellow :
@@ -464,4 +464,5 @@ def extract_load_transform():
 
 extract_load_transform()
 ```
+## Data Visualisation With Looker Studio
 
