@@ -317,12 +317,15 @@ Open url http://localhost:8080 for Airflow UI
 
 ### Create Airbyte Connection in Airflow Web Server
 Click Admin --> Connections
+
 Input connection id
+
 Choose connection type : Airbyte
 - host : airbyte-server
 - port : 8001
 
 Click Test
+
 Click Save
 
 ### Create DAG
