@@ -7,7 +7,7 @@ WITH source AS (
         email,
         CAST(gender_id AS INTEGER) AS gender_id,
         CAST(country_id AS INTEGER) AS country_id
-    FROM {{ source('capstone_data', 'user') }}
+    FROM {{ source('capstone_data', 'user2') }}
     WHERE user_id IS NOT NULL
 )
 
