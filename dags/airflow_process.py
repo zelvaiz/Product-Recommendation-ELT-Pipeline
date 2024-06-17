@@ -9,7 +9,7 @@ from airflow.models.baseoperator import chain
 from airflow.operators.bash_operator import BashOperator
 
 
-USER_CONN_ID = 'b51d16e8-00e8-4945-8998-8ffcc6c53d97'
+USER_CONN_ID = 'b16fccac-362c-4615-9f1d-b597f31842b1'
 PRODUCT_CONN_ID = 'edb1fbff-532d-45d6-804b-09b9d0420aa2'
 PURCHASED_CONN_ID = '11120be3-442a-44ec-8960-8be3067ef0f7'
 CART_CONN_ID = '8d4a80f5-ba8b-41c1-a816-1e759106cfd1'
