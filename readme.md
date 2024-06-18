@@ -279,11 +279,10 @@ In this case, you can create a file under the `macros` folder (for example, `mac
 ```sql
 {% macro age_category(column_name) %}
     case
-        when {{column_name}} >= 30 then 'Adult'
+        when {{column_name}} >= 40 then 'Old Adults'
+        when {{column_name}} >= 30 then 'Middle-aged Adults'
         when {{column_name}} >= 20 then 'Young Adult'
         when {{column_name}} >= 13 then 'Teen'
-        when {{column_name}} >= 5 then 'Kid'
-        when {{column_name}} >= 0 then 'Baby'
     end
 {% endmacro %}
 ```
@@ -465,4 +464,5 @@ def extract_load_transform():
 extract_load_transform()
 ```
 ## Data Visualisation With Looker Studio
+https://lookerstudio.google.com/reporting/b4ff0e53-d9c0-47cb-9f24-18f28b9ccfab
 
