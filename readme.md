@@ -54,20 +54,7 @@ https://storage.googleapis.com/project_capstone_alterra_2/gender.csv (Gender)
 https://storage.googleapis.com/project_capstone_alterra_2/purchased.csv (Purchased)
 https://storage.googleapis.com/project_capstone_alterra_2/review.csv (Review) 
 https://storage.googleapis.com/project_capstone_alterra_2/tags%20(1).csv (Tags)
-- Click set up source 
-
-### Data Source From Postgres
-- In Define source, choose setup new source
-- Input postgres in search text box then click File
-- Fill:
-```bash
-Host : localhost
-Port : 5441
-Database_Name : mudb
-Username: postgres
-Password : admin
-```
-![postgres](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/postgres.jpg) 
+https://storage.googleapis.com/project_capstone_alterra_2/csvjson.json (User)
 - Click set up source 
 
 ### Define destination connection in Airbyte (To Bigquery)
