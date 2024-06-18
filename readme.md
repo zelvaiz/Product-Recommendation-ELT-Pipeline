@@ -1,4 +1,4 @@
-# Product Reccomendation ELT Pipeline: Extract With Airbyte, Load to Bigquery, Transform With DBT and Orchestration With Airflow
+# Product Recommendation ELT Pipeline: Extract With Airbyte, Load to Bigquery, Transform With DBT and Orchestration With Airflow
 
 ## User Case
 
@@ -10,7 +10,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 
 1. Data Ingestion - Membuat pipeline data ingestion untuk mengekstrak raw data ke dalam GCP BigQuery.
 2. Data Transformation - Menggunakan DBT untuk melakukan pemodelan data dan mengubah data ke dalam star schema.
-3. Data Orchestration - Menggunakan Airflow untuk melakukan otomatisasi terhadap pipeline yang telah dibetuk.
+3. Data Orchestration - Menggunakan Airflow untuk melakukan otomatisasi terhadap pipeline yang telah dibentuk.
 4. Data Reporting/Analytics - Menggunakan Looker Studio untuk membuat dashboard untuk tujuan pelaporan atau analisis.
 
 ## ELT Data Architecture 
@@ -63,7 +63,7 @@ https://storage.googleapis.com/project_capstone_alterra_2/csvjson.json (User)
 ### Define destination connection in Airbyte (To Bigquery)
 - In Define destination, choose setup new destination
 - Input Bigquery in search text box
-- Fill the colum for Bigquery Connnection, please refer to this article [Airflow_Bigquery](https://docs.airbyte.com/integrations/destinations/bigquery?_gl=1*106oqw*_gcl_au*MjEwNjIyMzgwMi4xNzE3NTc2NjY0)
+- Fill the colum for Bigquery Connection, please refer to this article [Airflow_Bigquery](https://docs.airbyte.com/integrations/destinations/bigquery?_gl=1*106oqw*_gcl_au*MjEwNjIyMzgwMi4xNzE3NTc2NjY0)
 ![airflow_bigquery](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/bigquery.jpg) 
 - Click Setup destination
 
@@ -218,7 +218,7 @@ For more information about models, you can refer to the following link [Models](
 
 You can install additional dbt package by modifying `packages.yml` and invoking `dbt deps` afterwise.
 
-Make file `packages.yml` uder directory `dbt/project`
+Make file `packages.yml` under directory `dbt/project`
 
 Put the dbt utils packages to `packages.yml`
 ```yml
@@ -451,6 +451,6 @@ def extract_load_transform():
 
 extract_load_transform()
 ```
-## Data Visualisation With Looker Studio
+## Data Visualization With Looker Studio
 https://lookerstudio.google.com/reporting/b4ff0e53-d9c0-47cb-9f24-18f28b9ccfab
 
