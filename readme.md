@@ -15,11 +15,14 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 
 ## ELT Data Architecture 
 
-![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT%20Archicteture.png) 
+![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT_Architecture.png) 
 
 ## Start Docker Compose
-- git clone this code to local
-- run docker compose
+- Git clone this code to local
+    ```
+    https://github.com/ahmadalpadani/Project-Capstone.git
+    ```
+- Run docker compose
 
   ```
   docker compose up -d
@@ -54,20 +57,7 @@ https://storage.googleapis.com/project_capstone_alterra_2/gender.csv (Gender)
 https://storage.googleapis.com/project_capstone_alterra_2/purchased.csv (Purchased)
 https://storage.googleapis.com/project_capstone_alterra_2/review.csv (Review) 
 https://storage.googleapis.com/project_capstone_alterra_2/tags%20(1).csv (Tags)
-- Click set up source 
-
-### Data Source From Postgres
-- In Define source, choose setup new source
-- Input postgres in search text box then click File
-- Fill:
-```bash
-Host : localhost
-Port : 5441
-Database_Name : mudb
-Username: postgres
-Password : admin
-```
-![postgres](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/postgres.jpg) 
+https://storage.googleapis.com/project_capstone_alterra_2/csvjson.json (User)
 - Click set up source 
 
 ### Define destination connection in Airbyte (To Bigquery)
@@ -187,13 +177,11 @@ sources:
   - name: capstone_data
     schema: Project_Capstone
     tables: 
-      - name: user
-      - name: product
+      - name: user2
       - name: purchased
       - name: cart
       - name: country
       - name: gender
-      - name: tags
       - name: review
       - name: product2
       - name: tags2
@@ -217,7 +205,7 @@ WITH source AS (
         email,
         CAST(gender_id AS INTEGER) AS gender_id,
         CAST(country_id AS INTEGER) AS country_id
-    FROM {{ source('capstone_data', 'user') }}
+    FROM {{ source('capstone_data', 'user2') }}
     WHERE user_id IS NOT NULL
 )
 
@@ -279,11 +267,10 @@ In this case, you can create a file under the `macros` folder (for example, `mac
 ```sql
 {% macro age_category(column_name) %}
     case
-        when {{column_name}} >= 30 then 'Adult'
+        when {{column_name}} >= 40 then 'Old Adults'
+        when {{column_name}} >= 30 then 'Middle-aged Adults'
         when {{column_name}} >= 20 then 'Young Adult'
         when {{column_name}} >= 13 then 'Teen'
-        when {{column_name}} >= 5 then 'Kid'
-        when {{column_name}} >= 0 then 'Baby'
     end
 {% endmacro %}
 ```
@@ -465,4 +452,5 @@ def extract_load_transform():
 extract_load_transform()
 ```
 ## Data Visualisation With Looker Studio
+https://lookerstudio.google.com/reporting/b4ff0e53-d9c0-47cb-9f24-18f28b9ccfab
 
