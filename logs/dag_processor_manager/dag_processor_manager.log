@@ -34926,3 +34926,2159 @@ File Path                               PID  Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/dbt_fix.py                                   1           0  0.47s           2024-06-17T12:58:58
 /opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T12:59:04
 ================================================================================
+[2024-06-17T12:59:45.013+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py          514  28.20s            1           0  29.91s          2024-06-17T12:58:46
+/opt/airflow/dags/dbt.py                                       1           0  24.98s          2024-06-17T12:59:20
+/opt/airflow/dags/airflow_process.py                           1           0  8.54s           2024-06-17T12:59:43
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.96s           2024-06-17T12:59:30
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T12:59:44
+================================================================================
+[2024-06-17T12:59:46.978+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:00:15.089+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.17s          2024-06-17T12:59:46
+/opt/airflow/dags/dbt.py                584  24.42s            1           0  24.98s          2024-06-17T12:59:20
+/opt/airflow/dags/airflow_process.py    633  1.01s             1           0  8.54s           2024-06-17T12:59:43
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T12:59:44
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.42s           2024-06-17T13:00:00
+================================================================================
+[2024-06-17T13:00:45.717+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  27.19s          2024-06-17T13:00:17
+/opt/airflow/dags/coba_coba.py                                 1           0  22.97s          2024-06-17T13:00:40
+/opt/airflow/dags/airflow_process.py                           1           0  1.78s           2024-06-17T13:00:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.76s           2024-06-17T13:00:16
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T13:00:31
+================================================================================
+[2024-06-17T13:01:11.464+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:01:11.635+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:01:16.277+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.25s          2024-06-17T13:01:12
+/opt/airflow/dags/coba_coba.py          763  5.12s             1           0  22.97s          2024-06-17T13:00:40
+/opt/airflow/dags/airflow_process.py                           1           0  0.55s           2024-06-17T13:00:47
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.40s           2024-06-17T13:01:02
+/opt/airflow/dags/dbtnew.py                                    1           0  0.16s           2024-06-17T13:00:46
+================================================================================
+[2024-06-17T13:01:46.793+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                828  4.09s             1           0  24.25s          2024-06-17T13:01:12
+/opt/airflow/dags/coba_coba.py                                 1           0  22.25s          2024-06-17T13:01:33
+/opt/airflow/dags/airflow_process.py                           1           0  0.71s           2024-06-17T13:01:18
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T13:01:32
+/opt/airflow/dags/dbtnew.py                                    1           0  0.16s           2024-06-17T13:01:17
+================================================================================
+[2024-06-17T13:02:17.242+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  30.42s          2024-06-17T13:02:13
+/opt/airflow/dags/coba_coba.py          877  13.32s            1           0  22.25s          2024-06-17T13:01:33
+/opt/airflow/dags/airflow_process.py                           1           0  2.89s           2024-06-17T13:01:51
+/opt/airflow/dags/dbtnew.py                                    1           0  0.71s           2024-06-17T13:01:48
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.69s           2024-06-17T13:02:03
+================================================================================
+[2024-06-17T13:02:48.179+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                958  4.11s             1           0  30.42s          2024-06-17T13:02:13
+/opt/airflow/dags/coba_coba.py                                 1           0  26.86s          2024-06-17T13:02:30
+/opt/airflow/dags/airflow_process.py                           1           0  0.70s           2024-06-17T13:02:23
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T13:02:34
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T13:02:19
+================================================================================
+[2024-06-17T13:03:14.412+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T13:03:18.209+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  30.34s          2024-06-17T13:03:14
+/opt/airflow/dags/coba_coba.py         1001  16.68s            1           0  26.86s          2024-06-17T13:02:30
+/opt/airflow/dags/airflow_process.py                           1           0  2.27s           2024-06-17T13:02:55
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.82s           2024-06-17T13:03:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.73s           2024-06-17T13:02:50
+================================================================================
+[2024-06-17T13:03:31.971+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:03:48.714+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.36s          2024-06-17T13:03:31
+/opt/airflow/dags/dbt.py               1067  3.82s             0          -1  30.34s          2024-06-17T13:03:14
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.78s           2024-06-17T13:03:47
+/opt/airflow/dags/airflow_process.py                           1           0  1.05s           2024-06-17T13:03:26
+/opt/airflow/dags/dbtnew.py                                    1           0  0.98s           2024-06-17T13:03:21
+================================================================================
+[2024-06-17T13:04:18.732+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  30.36s          2024-06-17T13:04:15
+/opt/airflow/dags/coba_coba.py         1111  16.62s            0          -1  30.36s          2024-06-17T13:03:31
+/opt/airflow/dags/dbt_fix.py           1147  0.14s             1           0  1.78s           2024-06-17T13:03:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.75s           2024-06-17T13:03:57
+/opt/airflow/dags/dbtnew.py                                    1           0  0.38s           2024-06-17T13:03:52
+================================================================================
+[2024-06-17T13:04:32.262+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:04:48.775+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               1197  3.06s             1           0  30.36s          2024-06-17T13:04:15
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.15s          2024-06-17T13:04:32
+/opt/airflow/dags/airflow_process.py                           1           0  3.56s           2024-06-17T13:04:31
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.87s           2024-06-17T13:04:19
+/opt/airflow/dags/dbtnew.py                                    1           0  0.53s           2024-06-17T13:04:23
+================================================================================
+[2024-06-17T13:05:18.976+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         1242  15.42s            0          -1  30.15s          2024-06-17T13:04:32
+/opt/airflow/dags/dbt.py                                       1           0  28.73s          2024-06-17T13:05:14
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T13:05:03
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.33s           2024-06-17T13:04:50
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:04:53
+================================================================================
+[2024-06-17T13:05:49.421+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.36s          2024-06-17T13:05:32
+/opt/airflow/dags/dbt.py               1327  4.43s             1           0  28.73s          2024-06-17T13:05:14
+/opt/airflow/dags/airflow_process.py                           1           0  1.33s           2024-06-17T13:05:34
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.79s           2024-06-17T13:05:21
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:05:23
+================================================================================
+[2024-06-17T13:06:11.539+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:06:11.837+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:06:15.241+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T13:06:19.975+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  30.25s          2024-06-17T13:06:15
+/opt/airflow/dags/coba_coba.py         1350  16.63s            1           0  29.36s          2024-06-17T13:05:32
+/opt/airflow/dags/airflow_process.py                           1           0  1.58s           2024-06-17T13:06:16
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.79s           2024-06-17T13:05:52
+/opt/airflow/dags/dbtnew.py                                    1           0  0.57s           2024-06-17T13:05:55
+================================================================================
+[2024-06-17T13:06:50.130+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               1494  4.09s             0          -1  30.25s          2024-06-17T13:06:15
+/opt/airflow/dags/coba_coba.py                                 1           0  28.18s          2024-06-17T13:06:31
+/opt/airflow/dags/airflow_process.py                           1           0  0.96s           2024-06-17T13:06:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.49s           2024-06-17T13:06:26
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.39s           2024-06-17T13:06:23
+================================================================================
+[2024-06-17T13:07:20.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         1549  18.77s            1           0  28.18s          2024-06-17T13:06:31
+/opt/airflow/dags/dbt.py                                       1           0  25.79s          2024-06-17T13:07:11
+/opt/airflow/dags/airflow_process.py                           1           0  1.41s           2024-06-17T13:07:19
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:06:56
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:06:55
+================================================================================
+[2024-06-17T13:07:50.596+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               1630  8.30s             1           0  25.79s          2024-06-17T13:07:11
+/opt/airflow/dags/coba_coba.py                                 1           0  23.49s          2024-06-17T13:07:25
+/opt/airflow/dags/airflow_process.py   1641  0.01s             1           0  1.41s           2024-06-17T13:07:19
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T13:07:26
+/opt/airflow/dags/dbtnew.py                                    1           0  0.13s           2024-06-17T13:07:27
+================================================================================
+[2024-06-17T13:08:20.659+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  25.76s          2024-06-17T13:08:08
+/opt/airflow/dags/coba_coba.py                                 1           0  23.84s          2024-06-17T13:08:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.45s           2024-06-17T13:07:52
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T13:08:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:08:08
+================================================================================
+[2024-06-17T13:08:50.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               1774  11.74s            1           0  25.76s          2024-06-17T13:08:08
+/opt/airflow/dags/coba_coba.py         1787  1.05s             1           0  23.84s          2024-06-17T13:08:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T13:08:23
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.23s           2024-06-17T13:08:39
+/opt/airflow/dags/dbtnew.py                                    1           0  0.19s           2024-06-17T13:08:39
+================================================================================
+[2024-06-17T13:09:21.063+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  28.77s          2024-06-17T13:09:18
+/opt/airflow/dags/dbt.py                                       1           0  23.10s          2024-06-17T13:09:02
+/opt/airflow/dags/airflow_process.py                           1           0  1.03s           2024-06-17T13:09:03
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:09:09
+/opt/airflow/dags/dbtnew.py                                    1           0  0.19s           2024-06-17T13:09:09
+================================================================================
+[2024-06-17T13:09:51.575+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         1907  2.60s             1           0  28.77s          2024-06-17T13:09:18
+/opt/airflow/dags/dbt.py               1885  19.18s            1           0  23.10s          2024-06-17T13:09:02
+/opt/airflow/dags/airflow_process.py                           1           0  3.99s           2024-06-17T13:09:37
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.39s           2024-06-17T13:09:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.38s           2024-06-17T13:09:40
+================================================================================
+[2024-06-17T13:10:22.226+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  29.19s          2024-06-17T13:10:01
+/opt/airflow/dags/coba_coba.py                                 1           0  25.61s          2024-06-17T13:10:14
+/opt/airflow/dags/airflow_process.py                           1           0  1.33s           2024-06-17T13:10:09
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.29s           2024-06-17T13:10:10
+/opt/airflow/dags/dbtnew.py                                    1           0  0.22s           2024-06-17T13:10:11
+================================================================================
+[2024-06-17T13:10:52.630+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         2050  7.42s             1           0  25.61s          2024-06-17T13:10:14
+/opt/airflow/dags/dbt.py                                       1           0  20.84s          2024-06-17T13:10:52
+/opt/airflow/dags/airflow_process.py                           1           0  1.53s           2024-06-17T13:10:41
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.36s           2024-06-17T13:10:41
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:10:42
+================================================================================
+[2024-06-17T13:11:11.733+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:11:11.917+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:11:23.493+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.52s          2024-06-17T13:11:07
+/opt/airflow/dags/dbt.py               2137  0.01s             1           0  20.84s          2024-06-17T13:10:52
+/opt/airflow/dags/airflow_process.py                           1           0  0.91s           2024-06-17T13:11:12
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.24s           2024-06-17T13:11:13
+/opt/airflow/dags/dbtnew.py                                    1           0  0.22s           2024-06-17T13:11:13
+================================================================================
+[2024-06-17T13:11:53.839+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.35s          2024-06-17T13:11:47
+/opt/airflow/dags/coba_coba.py         2161  15.81s            1           0  22.52s          2024-06-17T13:11:07
+/opt/airflow/dags/airflow_process.py                           1           0  1.04s           2024-06-17T13:11:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.37s           2024-06-17T13:11:49
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.36s           2024-06-17T13:11:49
+================================================================================
+[2024-06-17T13:12:24.348+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  24.58s          2024-06-17T13:12:02
+/opt/airflow/dags/dbt.py               2242  6.27s             1           0  24.35s          2024-06-17T13:11:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.72s           2024-06-17T13:12:19
+/opt/airflow/dags/dbtnew.py                                    1           0  0.36s           2024-06-17T13:12:20
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T13:12:20
+================================================================================
+[2024-06-17T13:12:54.425+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  27.81s          2024-06-17T13:12:45
+/opt/airflow/dags/coba_coba.py         2285  21.47s            1           0  24.58s          2024-06-17T13:12:02
+/opt/airflow/dags/airflow_process.py                           1           0  0.88s           2024-06-17T13:12:50
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:12:51
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T13:12:51
+================================================================================
+[2024-06-17T13:13:24.640+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               2368  8.54s             1           0  27.81s          2024-06-17T13:12:45
+/opt/airflow/dags/coba_coba.py                                 1           0  25.14s          2024-06-17T13:12:58
+/opt/airflow/dags/airflow_process.py                           1           0  1.01s           2024-06-17T13:13:22
+/opt/airflow/dags/dbtnew.py                                    1           0  0.37s           2024-06-17T13:13:24
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.25s           2024-06-17T13:13:24
+================================================================================
+[2024-06-17T13:13:54.670+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.42s          2024-06-17T13:13:40
+/opt/airflow/dags/coba_coba.py                                 1           0  22.58s          2024-06-17T13:13:51
+/opt/airflow/dags/airflow_process.py   2479  1.05s             1           0  1.01s           2024-06-17T13:13:22
+/opt/airflow/dags/dbtnew.py                                    1           0  0.37s           2024-06-17T13:13:24
+/opt/airflow/dags/dbt_fix.py           2482  0.01s             1           0  0.25s           2024-06-17T13:13:24
+================================================================================
+[2024-06-17T13:14:25.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               2494  13.73s            1           0  24.42s          2024-06-17T13:13:40
+/opt/airflow/dags/coba_coba.py         2507  3.09s             1           0  22.58s          2024-06-17T13:13:51
+/opt/airflow/dags/airflow_process.py                           1           0  1.48s           2024-06-17T13:13:55
+/opt/airflow/dags/dbtnew.py                                    1           0  0.35s           2024-06-17T13:13:55
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.29s           2024-06-17T13:13:54
+================================================================================
+[2024-06-17T13:14:55.389+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  25.68s          2024-06-17T13:14:47
+/opt/airflow/dags/dbt.py                                       1           0  21.65s          2024-06-17T13:14:33
+/opt/airflow/dags/airflow_process.py                           1           0  0.61s           2024-06-17T13:14:33
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.36s           2024-06-17T13:14:34
+/opt/airflow/dags/dbtnew.py                                    1           0  0.17s           2024-06-17T13:14:34
+================================================================================
+[2024-06-17T13:15:25.796+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         2644  7.24s             1           0  25.68s          2024-06-17T13:14:47
+/opt/airflow/dags/dbt.py                                       1           0  22.34s          2024-06-17T13:15:25
+/opt/airflow/dags/airflow_process.py                           1           0  0.66s           2024-06-17T13:15:05
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:15:05
+/opt/airflow/dags/dbtnew.py                                    1           0  0.22s           2024-06-17T13:15:05
+================================================================================
+[2024-06-17T13:15:56.271+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  24.07s          2024-06-17T13:15:42
+/opt/airflow/dags/dbt.py               2731  0.00s             1           0  22.34s          2024-06-17T13:15:25
+/opt/airflow/dags/airflow_process.py                           1           0  1.05s           2024-06-17T13:15:36
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.39s           2024-06-17T13:15:36
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T13:15:37
+================================================================================
+[2024-06-17T13:16:12.183+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:16:12.448+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:16:26.282+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         2770  12.76s            1           0  24.07s          2024-06-17T13:15:42
+/opt/airflow/dags/dbt.py                                       1           0  22.90s          2024-06-17T13:16:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.80s           2024-06-17T13:16:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.42s           2024-06-17T13:16:09
+/opt/airflow/dags/dbtnew.py                                    1           0  0.41s           2024-06-17T13:16:09
+================================================================================
+[2024-06-17T13:16:56.530+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  24.04s          2024-06-17T13:16:37
+/opt/airflow/dags/dbt.py               2851  7.14s             1           0  22.90s          2024-06-17T13:16:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.72s           2024-06-17T13:16:54
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.46s           2024-06-17T13:16:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T13:16:40
+================================================================================
+[2024-06-17T13:17:27.248+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         2902  19.40s            1           0  24.04s          2024-06-17T13:16:37
+/opt/airflow/dags/dbt.py                                       1           0  20.28s          2024-06-17T13:17:09
+/opt/airflow/dags/airflow_process.py                           1           0  1.04s           2024-06-17T13:17:26
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:17:11
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.25s           2024-06-17T13:17:10
+================================================================================
+[2024-06-17T13:17:57.621+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  23.84s          2024-06-17T13:17:31
+/opt/airflow/dags/dbt.py               2967  17.75s            1           0  20.28s          2024-06-17T13:17:09
+/opt/airflow/dags/dbtnew.py                                    1           0  1.40s           2024-06-17T13:17:43
+/opt/airflow/dags/airflow_process.py   3009  1.04s             1           0  1.04s           2024-06-17T13:17:26
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.66s           2024-06-17T13:17:42
+================================================================================
+[2024-06-17T13:18:27.996+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  28.24s          2024-06-17T13:18:08
+/opt/airflow/dags/coba_coba.py         3014  26.24s            1           0  23.84s          2024-06-17T13:17:31
+/opt/airflow/dags/airflow_process.py   3088  0.00s             1           0  1.27s           2024-06-17T13:17:57
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.47s           2024-06-17T13:18:13
+/opt/airflow/dags/dbtnew.py                                    1           0  0.38s           2024-06-17T13:18:14
+================================================================================
+[2024-06-17T13:18:58.821+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.96s          2024-06-17T13:18:31
+/opt/airflow/dags/dbt.py               3095  20.09s            1           0  28.24s          2024-06-17T13:18:08
+/opt/airflow/dags/airflow_process.py                           1           0  2.76s           2024-06-17T13:18:30
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.42s           2024-06-17T13:18:44
+/opt/airflow/dags/dbtnew.py                                    1           0  0.37s           2024-06-17T13:18:45
+================================================================================
+[2024-06-17T13:19:29.823+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         3156  26.66s            1           0  29.96s          2024-06-17T13:18:31
+/opt/airflow/dags/dbt.py                                       1           0  24.41s          2024-06-17T13:19:03
+/opt/airflow/dags/airflow_process.py                           1           0  1.51s           2024-06-17T13:19:03
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.58s           2024-06-17T13:19:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.55s           2024-06-17T13:19:16
+================================================================================
+[2024-06-17T13:20:00.781+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.62s          2024-06-17T13:19:32
+/opt/airflow/dags/dbt.py               3218  26.88s            1           0  24.41s          2024-06-17T13:19:03
+/opt/airflow/dags/airflow_process.py                           1           0  1.61s           2024-06-17T13:19:35
+/opt/airflow/dags/dbtnew.py                                    1           0  0.42s           2024-06-17T13:19:47
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.33s           2024-06-17T13:19:46
+================================================================================
+[2024-06-17T13:20:31.004+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         3281  27.64s            1           0  29.62s          2024-06-17T13:19:32
+/opt/airflow/dags/dbt.py                                       1           0  28.41s          2024-06-17T13:20:02
+/opt/airflow/dags/airflow_process.py                           1           0  1.70s           2024-06-17T13:20:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.52s           2024-06-17T13:20:17
+/opt/airflow/dags/dbtnew.py                                    1           0  0.51s           2024-06-17T13:20:17
+================================================================================
+[2024-06-17T13:20:34.697+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:21:01.042+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  31.33s          2024-06-17T13:20:34
+/opt/airflow/dags/dbt.py                                       1           0  24.53s          2024-06-17T13:20:57
+/opt/airflow/dags/airflow_process.py                           1           0  1.38s           2024-06-17T13:20:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.37s           2024-06-17T13:20:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T13:20:48
+================================================================================
+[2024-06-17T13:21:12.213+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:21:12.540+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:21:31.138+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         3409  25.91s            0          -1  31.33s          2024-06-17T13:20:34
+/opt/airflow/dags/dbt.py               3455  3.83s             1           0  24.53s          2024-06-17T13:20:57
+/opt/airflow/dags/airflow_process.py                           1           0  1.79s           2024-06-17T13:21:12
+/opt/airflow/dags/dbtnew.py                                    1           0  0.85s           2024-06-17T13:21:20
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.85s           2024-06-17T13:21:19
+================================================================================
+[2024-06-17T13:21:35.338+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:21:57.601+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T13:22:01.624+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  30.29s          2024-06-17T13:21:57
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.11s          2024-06-17T13:21:35
+/opt/airflow/dags/airflow_process.py                           1           0  1.41s           2024-06-17T13:21:43
+/opt/airflow/dags/dbtnew.py                                    1           0  0.70s           2024-06-17T13:21:51
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.42s           2024-06-17T13:21:50
+================================================================================
+[2024-06-17T13:22:31.634+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               3584  3.48s             0          -1  30.29s          2024-06-17T13:21:57
+/opt/airflow/dags/coba_coba.py         3537  25.49s            0          -1  30.11s          2024-06-17T13:21:35
+/opt/airflow/dags/airflow_process.py                           1           0  1.66s           2024-06-17T13:22:16
+/opt/airflow/dags/dbtnew.py                                    1           0  0.52s           2024-06-17T13:22:22
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.40s           2024-06-17T13:22:21
+================================================================================
+[2024-06-17T13:22:36.290+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:23:02.319+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  30.33s          2024-06-17T13:22:58
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.15s          2024-06-17T13:22:36
+/opt/airflow/dags/airflow_process.py                           1           0  1.08s           2024-06-17T13:22:47
+/opt/airflow/dags/dbtnew.py                                    1           0  0.40s           2024-06-17T13:22:53
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.23s           2024-06-17T13:22:51
+================================================================================
+[2024-06-17T13:23:33.100+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               3712  4.15s             1           0  30.33s          2024-06-17T13:22:58
+/opt/airflow/dags/coba_coba.py         3665  26.16s            0          -1  30.15s          2024-06-17T13:22:36
+/opt/airflow/dags/airflow_process.py                           1           0  0.68s           2024-06-17T13:23:18
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.52s           2024-06-17T13:23:22
+/opt/airflow/dags/dbtnew.py                                    1           0  0.25s           2024-06-17T13:23:24
+================================================================================
+[2024-06-17T13:24:03.467+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  30.24s          2024-06-17T13:23:37
+/opt/airflow/dags/dbt.py                                       1           0  28.01s          2024-06-17T13:23:56
+/opt/airflow/dags/airflow_process.py                           1           0  1.22s           2024-06-17T13:23:50
+/opt/airflow/dags/dbtnew.py                                    1           0  0.46s           2024-06-17T13:23:54
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.33s           2024-06-17T13:23:53
+================================================================================
+[2024-06-17T13:24:33.881+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         3793  26.19s            1           0  30.24s          2024-06-17T13:23:37
+/opt/airflow/dags/dbt.py               3840  6.69s             1           0  28.01s          2024-06-17T13:23:56
+/opt/airflow/dags/airflow_process.py                           1           0  1.35s           2024-06-17T13:24:21
+/opt/airflow/dags/dbtnew.py                                    1           0  0.42s           2024-06-17T13:24:25
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.35s           2024-06-17T13:24:24
+================================================================================
+[2024-06-17T13:25:04.052+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  28.49s          2024-06-17T13:24:55
+/opt/airflow/dags/coba_coba.py                                 1           0  27.25s          2024-06-17T13:24:34
+/opt/airflow/dags/airflow_process.py                           1           0  1.69s           2024-06-17T13:24:54
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.46s           2024-06-17T13:24:54
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:24:56
+================================================================================
+[2024-06-17T13:25:34.305+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               3968  6.72s             1           0  28.49s          2024-06-17T13:24:55
+/opt/airflow/dags/coba_coba.py         3921  29.23s            1           0  27.25s          2024-06-17T13:24:34
+/opt/airflow/dags/airflow_process.py                           1           0  2.17s           2024-06-17T13:25:26
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T13:25:27
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.41s           2024-06-17T13:25:27
+================================================================================
+[2024-06-17T13:25:35.414+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:26:04.575+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.33s          2024-06-17T13:25:35
+/opt/airflow/dags/dbt.py                                       1           0  27.91s          2024-06-17T13:25:55
+/opt/airflow/dags/airflow_process.py                           1           0  1.25s           2024-06-17T13:25:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.46s           2024-06-17T13:25:58
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:25:58
+================================================================================
+[2024-06-17T13:26:12.546+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:26:12.922+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:26:34.808+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4085  8.29s             1           0  27.91s          2024-06-17T13:25:55
+/opt/airflow/dags/coba_coba.py                                 1           0  27.08s          2024-06-17T13:26:32
+/opt/airflow/dags/airflow_process.py                           1           0  1.64s           2024-06-17T13:26:34
+/opt/airflow/dags/dbtnew.py            4118  0.01s             1           0  0.33s           2024-06-17T13:25:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:26:34
+================================================================================
+[2024-06-17T13:27:05.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         4188  2.04s             1           0  27.08s          2024-06-17T13:26:32
+/opt/airflow/dags/dbt.py                                       1           0  25.83s          2024-06-17T13:26:52
+/opt/airflow/dags/airflow_process.py   4193  1.02s             1           0  1.64s           2024-06-17T13:26:34
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:26:34
+/opt/airflow/dags/dbtnew.py                                    1           0  0.22s           2024-06-17T13:26:35
+================================================================================
+[2024-06-17T13:27:36.377+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4249  12.87s            1           0  25.83s          2024-06-17T13:26:52
+/opt/airflow/dags/coba_coba.py                                 1           0  23.62s          2024-06-17T13:27:27
+/opt/airflow/dags/airflow_process.py   4274  0.01s             1           0  1.02s           2024-06-17T13:27:05
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T13:27:05
+/opt/airflow/dags/dbtnew.py                                    1           0  0.16s           2024-06-17T13:27:05
+================================================================================
+[2024-06-17T13:28:06.906+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.33s          2024-06-17T13:27:47
+/opt/airflow/dags/coba_coba.py         4314  9.34s             1           0  23.62s          2024-06-17T13:27:27
+/opt/airflow/dags/airflow_process.py                           1           0  1.26s           2024-06-17T13:27:37
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.37s           2024-06-17T13:27:38
+/opt/airflow/dags/dbtnew.py                                    1           0  0.35s           2024-06-17T13:27:38
+================================================================================
+[2024-06-17T13:28:36.995+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4379  18.98s            1           0  24.33s          2024-06-17T13:27:47
+/opt/airflow/dags/coba_coba.py                                 1           0  19.33s          2024-06-17T13:28:16
+/opt/airflow/dags/airflow_process.py                           1           0  1.14s           2024-06-17T13:28:09
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.36s           2024-06-17T13:28:09
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:28:09
+================================================================================
+[2024-06-17T13:29:07.298+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  21.42s          2024-06-17T13:28:39
+/opt/airflow/dags/coba_coba.py         4442  20.32s            1           0  19.33s          2024-06-17T13:28:16
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T13:28:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T13:28:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.24s           2024-06-17T13:28:40
+================================================================================
+[2024-06-17T13:29:37.720+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  25.79s          2024-06-17T13:29:12
+/opt/airflow/dags/dbt.py                                       1           0  25.27s          2024-06-17T13:29:37
+/opt/airflow/dags/airflow_process.py                           1           0  1.26s           2024-06-17T13:29:14
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.29s           2024-06-17T13:29:14
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:29:14
+================================================================================
+[2024-06-17T13:30:08.267+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         4553  25.23s            1           0  25.79s          2024-06-17T13:29:12
+/opt/airflow/dags/dbt.py               4597  0.01s             1           0  25.27s          2024-06-17T13:29:37
+/opt/airflow/dags/airflow_process.py                           1           0  2.65s           2024-06-17T13:29:47
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.34s           2024-06-17T13:29:47
+/opt/airflow/dags/dbtnew.py                                    1           0  0.25s           2024-06-17T13:29:48
+================================================================================
+[2024-06-17T13:30:38.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.08s          2024-06-17T13:30:12
+/opt/airflow/dags/dbt.py                                       1           0  28.52s          2024-06-17T13:30:36
+/opt/airflow/dags/airflow_process.py                           1           0  3.39s           2024-06-17T13:30:22
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:30:23
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:30:22
+================================================================================
+[2024-06-17T13:31:09.507+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4739  2.10s             1           0  28.52s          2024-06-17T13:30:36
+/opt/airflow/dags/coba_coba.py                                 1           0  25.86s          2024-06-17T13:31:08
+/opt/airflow/dags/airflow_process.py                           1           0  1.16s           2024-06-17T13:30:54
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:30:55
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:30:55
+================================================================================
+[2024-06-17T13:31:12.699+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:31:14.817+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:31:39.807+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  29.38s          2024-06-17T13:31:36
+/opt/airflow/dags/coba_coba.py         4804  1.16s             1           0  25.86s          2024-06-17T13:31:08
+/opt/airflow/dags/airflow_process.py                           1           0  0.68s           2024-06-17T13:31:25
+/opt/airflow/dags/dbtnew.py                                    1           0  0.36s           2024-06-17T13:31:27
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:31:26
+================================================================================
+[2024-06-17T13:32:10.119+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4867  3.10s             1           0  29.38s          2024-06-17T13:31:36
+/opt/airflow/dags/coba_coba.py                                 1           0  27.32s          2024-06-17T13:32:05
+/opt/airflow/dags/airflow_process.py                           1           0  1.66s           2024-06-17T13:31:57
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T13:31:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.43s           2024-06-17T13:31:57
+================================================================================
+[2024-06-17T13:32:40.795+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         4930  4.23s             1           0  27.32s          2024-06-17T13:32:05
+/opt/airflow/dags/dbt.py                                       1           0  22.41s          2024-06-17T13:32:29
+/opt/airflow/dags/airflow_process.py                           1           0  1.66s           2024-06-17T13:32:30
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.43s           2024-06-17T13:32:29
+/opt/airflow/dags/dbtnew.py                                    1           0  0.39s           2024-06-17T13:32:30
+================================================================================
+[2024-06-17T13:33:10.870+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               4978  10.88s            1           0  22.41s          2024-06-17T13:32:29
+/opt/airflow/dags/coba_coba.py                                 1           0  22.38s          2024-06-17T13:32:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.54s           2024-06-17T13:33:02
+/opt/airflow/dags/airflow_process.py                           1           0  1.41s           2024-06-17T13:33:03
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T13:33:04
+================================================================================
+[2024-06-17T13:33:41.557+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  30.85s          2024-06-17T13:33:30
+/opt/airflow/dags/coba_coba.py         5039  11.88s            1           0  22.38s          2024-06-17T13:32:58
+/opt/airflow/dags/airflow_process.py                           1           0  0.92s           2024-06-17T13:33:34
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:33:35
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:33:33
+================================================================================
+[2024-06-17T13:34:11.783+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               5104  10.70s            1           0  30.85s          2024-06-17T13:33:30
+/opt/airflow/dags/coba_coba.py                                 1           0  24.48s          2024-06-17T13:33:54
+/opt/airflow/dags/airflow_process.py                           1           0  1.54s           2024-06-17T13:34:07
+/opt/airflow/dags/dbtnew.py                                    1           0  0.34s           2024-06-17T13:34:07
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.23s           2024-06-17T13:34:04
+================================================================================
+[2024-06-17T13:34:42.252+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         5167  17.83s            1           0  24.48s          2024-06-17T13:33:54
+/opt/airflow/dags/dbt.py                                       1           0  23.30s          2024-06-17T13:34:24
+/opt/airflow/dags/airflow_process.py                           1           0  0.73s           2024-06-17T13:34:38
+/opt/airflow/dags/dbtnew.py                                    1           0  0.41s           2024-06-17T13:34:38
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.33s           2024-06-17T13:34:35
+================================================================================
+[2024-06-17T13:35:12.902+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  27.88s          2024-06-17T13:34:52
+/opt/airflow/dags/dbt.py               5230  17.54s            1           0  23.30s          2024-06-17T13:34:24
+/opt/airflow/dags/dbtnew.py                                    1           0  1.68s           2024-06-17T13:35:11
+/opt/airflow/dags/airflow_process.py                           1           0  0.99s           2024-06-17T13:35:09
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.17s           2024-06-17T13:35:05
+================================================================================
+[2024-06-17T13:35:43.472+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         5293  20.53s            1           0  27.88s          2024-06-17T13:34:52
+/opt/airflow/dags/dbt.py                                       1           0  25.43s          2024-06-17T13:35:20
+/opt/airflow/dags/airflow_process.py                           1           0  1.71s           2024-06-17T13:35:41
+/opt/airflow/dags/dbtnew.py            5327  1.40s             1           0  1.68s           2024-06-17T13:35:11
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.23s           2024-06-17T13:35:37
+================================================================================
+[2024-06-17T13:36:12.745+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:36:14.624+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:36:15.045+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  25.73s          2024-06-17T13:35:48
+/opt/airflow/dags/dbt.py               5350  23.40s            1           0  25.43s          2024-06-17T13:35:20
+/opt/airflow/dags/dbtnew.py                                    1           0  1.81s           2024-06-17T13:35:43
+/opt/airflow/dags/airflow_process.py   5401  2.46s             1           0  1.71s           2024-06-17T13:35:41
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.36s           2024-06-17T13:36:08
+================================================================================
+[2024-06-17T13:36:45.713+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         5413  25.91s            1           0  25.73s          2024-06-17T13:35:48
+/opt/airflow/dags/dbt.py                                       1           0  24.49s          2024-06-17T13:36:16
+/opt/airflow/dags/airflow_process.py   5464  0.00s             1           0  2.65s           2024-06-17T13:36:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:36:15
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:36:39
+================================================================================
+[2024-06-17T13:37:15.863+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  27.39s          2024-06-17T13:36:47
+/opt/airflow/dags/dbt.py                                       1           0  22.94s          2024-06-17T13:37:10
+/opt/airflow/dags/airflow_process.py                           1           0  1.19s           2024-06-17T13:36:46
+/opt/airflow/dags/dbtnew.py                                    1           0  0.43s           2024-06-17T13:36:47
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.25s           2024-06-17T13:37:10
+================================================================================
+[2024-06-17T13:37:46.491+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               5587  6.14s             1           0  22.94s          2024-06-17T13:37:10
+/opt/airflow/dags/coba_coba.py                                 1           0  21.55s          2024-06-17T13:37:39
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.85s           2024-06-17T13:37:42
+/opt/airflow/dags/airflow_process.py                           1           0  0.73s           2024-06-17T13:37:18
+/opt/airflow/dags/dbtnew.py                                    1           0  0.27s           2024-06-17T13:37:18
+================================================================================
+[2024-06-17T13:38:16.623+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  22.99s          2024-06-17T13:38:03
+/opt/airflow/dags/coba_coba.py         5650  7.28s             1           0  21.55s          2024-06-17T13:37:39
+/opt/airflow/dags/airflow_process.py                           1           0  0.66s           2024-06-17T13:37:49
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.57s           2024-06-17T13:38:13
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T13:37:49
+================================================================================
+[2024-06-17T13:38:47.295+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               5713  13.64s            1           0  22.99s          2024-06-17T13:38:03
+/opt/airflow/dags/coba_coba.py                                 1           0  22.45s          2024-06-17T13:38:31
+/opt/airflow/dags/airflow_process.py                           1           0  1.23s           2024-06-17T13:38:21
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.04s           2024-06-17T13:38:45
+/opt/airflow/dags/dbtnew.py                                    1           0  0.36s           2024-06-17T13:38:21
+================================================================================
+[2024-06-17T13:39:17.512+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  23.42s          2024-06-17T13:38:57
+/opt/airflow/dags/coba_coba.py         5776  15.43s            1           0  22.45s          2024-06-17T13:38:31
+/opt/airflow/dags/airflow_process.py                           1           0  1.19s           2024-06-17T13:38:52
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:38:53
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.20s           2024-06-17T13:39:15
+================================================================================
+[2024-06-17T13:39:48.266+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               5839  20.81s            1           0  23.42s          2024-06-17T13:38:57
+/opt/airflow/dags/coba_coba.py                                 1           0  20.33s          2024-06-17T13:39:22
+/opt/airflow/dags/airflow_process.py                           1           0  2.49s           2024-06-17T13:39:25
+/opt/airflow/dags/dbtnew.py                                    1           0  0.95s           2024-06-17T13:39:24
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.77s           2024-06-17T13:39:47
+================================================================================
+[2024-06-17T13:40:18.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               5931  0.01s             1           0  21.36s          2024-06-17T13:39:48
+/opt/airflow/dags/coba_coba.py         5886  26.26s            1           0  20.33s          2024-06-17T13:39:22
+/opt/airflow/dags/airflow_process.py                           1           0  1.90s           2024-06-17T13:39:57
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.37s           2024-06-17T13:40:18
+/opt/airflow/dags/dbtnew.py                                    1           0  0.34s           2024-06-17T13:39:55
+================================================================================
+[2024-06-17T13:40:22.811+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T13:40:49.800+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  30.17s          2024-06-17T13:40:22
+/opt/airflow/dags/dbt.py                                       1           0  23.66s          2024-06-17T13:40:42
+/opt/airflow/dags/airflow_process.py                           1           0  0.87s           2024-06-17T13:40:28
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.41s           2024-06-17T13:40:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.36s           2024-06-17T13:40:26
+================================================================================
+[2024-06-17T13:41:12.780+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:41:13.020+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:41:20.104+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               6068  7.40s             1           0  23.66s          2024-06-17T13:40:42
+/opt/airflow/dags/coba_coba.py                                 1           0  23.04s          2024-06-17T13:41:15
+/opt/airflow/dags/airflow_process.py                           1           0  1.34s           2024-06-17T13:41:00
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.29s           2024-06-17T13:41:19
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:40:57
+================================================================================
+[2024-06-17T13:41:50.423+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         6133  4.31s             1           0  23.04s          2024-06-17T13:41:15
+/opt/airflow/dags/dbt.py                                       1           0  21.26s          2024-06-17T13:41:33
+/opt/airflow/dags/airflow_process.py                           1           0  1.03s           2024-06-17T13:41:31
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.34s           2024-06-17T13:41:49
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:41:27
+================================================================================
+[2024-06-17T13:42:20.908+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  24.98s          2024-06-17T13:42:11
+/opt/airflow/dags/dbt.py               6178  16.67s            1           0  21.26s          2024-06-17T13:41:33
+/opt/airflow/dags/airflow_process.py                           1           0  1.23s           2024-06-17T13:42:03
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T13:41:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:42:20
+================================================================================
+[2024-06-17T13:42:50.980+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         6259  9.49s             1           0  24.98s          2024-06-17T13:42:11
+/opt/airflow/dags/dbt.py                                       1           0  24.16s          2024-06-17T13:42:28
+/opt/airflow/dags/airflow_process.py                           1           0  1.69s           2024-06-17T13:42:35
+/opt/airflow/dags/dbt_fix.py           6266  0.00s             1           0  0.31s           2024-06-17T13:42:20
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:42:28
+================================================================================
+[2024-06-17T13:43:21.423+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.23s          2024-06-17T13:43:03
+/opt/airflow/dags/dbt.py                                       1           0  22.18s          2024-06-17T13:43:20
+/opt/airflow/dags/airflow_process.py                           1           0  1.16s           2024-06-17T13:43:07
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:43:04
+/opt/airflow/dags/dbt_fix.py           6364  0.00s             1           0  0.16s           2024-06-17T13:42:51
+================================================================================
+[2024-06-17T13:43:51.757+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         6375  17.93s            1           0  22.23s          2024-06-17T13:43:03
+/opt/airflow/dags/dbt.py               6425  0.99s             1           0  22.18s          2024-06-17T13:43:20
+/opt/airflow/dags/airflow_process.py                           1           0  0.81s           2024-06-17T13:43:38
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T13:43:21
+/opt/airflow/dags/dbtnew.py                                    1           0  0.17s           2024-06-17T13:43:34
+================================================================================
+[2024-06-17T13:44:22.027+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.59s          2024-06-17T13:44:15
+/opt/airflow/dags/coba_coba.py                                 1           0  18.85s          2024-06-17T13:43:52
+/opt/airflow/dags/airflow_process.py                           1           0  1.55s           2024-06-17T13:44:11
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:44:05
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:43:52
+================================================================================
+[2024-06-17T13:44:52.333+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               6553  6.58s             1           0  24.59s          2024-06-17T13:44:15
+/opt/airflow/dags/coba_coba.py                                 1           0  20.26s          2024-06-17T13:44:43
+/opt/airflow/dags/airflow_process.py                           1           0  0.87s           2024-06-17T13:44:42
+/opt/airflow/dags/dbtnew.py                                    1           0  0.22s           2024-06-17T13:44:36
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.16s           2024-06-17T13:44:23
+================================================================================
+[2024-06-17T13:45:22.343+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  20.99s          2024-06-17T13:45:06
+/opt/airflow/dags/coba_coba.py         6614  9.19s             1           0  20.26s          2024-06-17T13:44:43
+/opt/airflow/dags/airflow_process.py                           1           0  0.72s           2024-06-17T13:45:13
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.23s           2024-06-17T13:44:53
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T13:45:07
+================================================================================
+[2024-06-17T13:45:52.455+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.79s          2024-06-17T13:45:42
+/opt/airflow/dags/dbt.py               6656  14.80s            1           0  20.99s          2024-06-17T13:45:06
+/opt/airflow/dags/airflow_process.py                           1           0  0.84s           2024-06-17T13:45:44
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T13:45:37
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:45:24
+================================================================================
+[2024-06-17T13:46:13.372+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:46:14.458+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:46:22.517+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         6737  8.01s             1           0  29.79s          2024-06-17T13:45:42
+/opt/airflow/dags/dbt.py                                       1           0  20.16s          2024-06-17T13:45:57
+/opt/airflow/dags/airflow_process.py                           1           0  0.83s           2024-06-17T13:46:16
+/opt/airflow/dags/dbtnew.py                                    1           0  0.34s           2024-06-17T13:46:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.21s           2024-06-17T13:45:55
+================================================================================
+[2024-06-17T13:46:53.261+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.67s          2024-06-17T13:46:37
+/opt/airflow/dags/dbt.py               6777  25.29s            1           0  20.16s          2024-06-17T13:45:57
+/opt/airflow/dags/airflow_process.py                           1           0  1.09s           2024-06-17T13:46:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.27s           2024-06-17T13:46:38
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:46:25
+================================================================================
+[2024-06-17T13:47:24.076+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  27.12s          2024-06-17T13:46:55
+/opt/airflow/dags/coba_coba.py         6858  16.06s            1           0  22.67s          2024-06-17T13:46:37
+/opt/airflow/dags/airflow_process.py                           1           0  1.24s           2024-06-17T13:47:19
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.16s           2024-06-17T13:46:57
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T13:47:09
+================================================================================
+[2024-06-17T13:47:54.483+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  28.90s          2024-06-17T13:47:54
+/opt/airflow/dags/coba_coba.py                                 1           0  20.79s          2024-06-17T13:47:28
+/opt/airflow/dags/airflow_process.py                           1           0  1.21s           2024-06-17T13:47:51
+/opt/airflow/dags/dbtnew.py                                    1           0  0.67s           2024-06-17T13:47:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.42s           2024-06-17T13:47:29
+================================================================================
+[2024-06-17T13:48:24.810+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               7043  0.40s             1           0  28.90s          2024-06-17T13:47:54
+/opt/airflow/dags/coba_coba.py                                 1           0  19.95s          2024-06-17T13:48:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.03s           2024-06-17T13:48:22
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T13:48:11
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.15s           2024-06-17T13:47:59
+================================================================================
+[2024-06-17T13:48:54.934+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  27.80s          2024-06-17T13:48:52
+/opt/airflow/dags/coba_coba.py         7093  5.20s             1           0  19.95s          2024-06-17T13:48:19
+/opt/airflow/dags/airflow_process.py                           1           0  1.28s           2024-06-17T13:48:54
+/opt/airflow/dags/dbtnew.py                                    1           0  0.32s           2024-06-17T13:48:41
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.17s           2024-06-17T13:48:30
+================================================================================
+[2024-06-17T13:49:24.958+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               7158  2.07s             1           0  27.80s          2024-06-17T13:48:52
+/opt/airflow/dags/coba_coba.py                                 1           0  24.67s          2024-06-17T13:49:14
+/opt/airflow/dags/airflow_process.py   7169  0.01s             1           0  1.28s           2024-06-17T13:48:54
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.33s           2024-06-17T13:49:01
+/opt/airflow/dags/dbtnew.py                                    1           0  0.32s           2024-06-17T13:49:12
+================================================================================
+[2024-06-17T13:49:55.718+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         7221  10.48s            1           0  24.67s          2024-06-17T13:49:14
+/opt/airflow/dags/dbt.py                                       1           0  20.32s          2024-06-17T13:49:43
+/opt/airflow/dags/airflow_process.py                           1           0  0.89s           2024-06-17T13:49:25
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:49:43
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.21s           2024-06-17T13:49:32
+================================================================================
+[2024-06-17T13:50:25.731+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               7282  12.09s            1           0  20.32s          2024-06-17T13:49:43
+/opt/airflow/dags/coba_coba.py                                 1           0  19.60s          2024-06-17T13:50:04
+/opt/airflow/dags/airflow_process.py                           1           0  0.95s           2024-06-17T13:49:57
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.25s           2024-06-17T13:50:03
+/opt/airflow/dags/dbtnew.py                                    1           0  0.24s           2024-06-17T13:50:13
+================================================================================
+[2024-06-17T13:50:56.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  21.04s          2024-06-17T13:50:34
+/opt/airflow/dags/coba_coba.py         7342  21.03s            1           0  19.60s          2024-06-17T13:50:04
+/opt/airflow/dags/airflow_process.py                           1           0  1.21s           2024-06-17T13:50:28
+/opt/airflow/dags/dbtnew.py                                    1           0  0.69s           2024-06-17T13:50:44
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.21s           2024-06-17T13:50:34
+================================================================================
+[2024-06-17T13:51:14.013+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:51:14.243+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:51:27.225+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  24.85s          2024-06-17T13:51:00
+/opt/airflow/dags/dbt.py                                       1           0  20.60s          2024-06-17T13:51:25
+/opt/airflow/dags/airflow_process.py                           1           0  1.09s           2024-06-17T13:51:00
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T13:51:05
+/opt/airflow/dags/dbtnew.py                                    1           0  0.30s           2024-06-17T13:51:15
+================================================================================
+[2024-06-17T13:51:57.778+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  21.38s          2024-06-17T13:51:51
+/opt/airflow/dags/dbt.py               7521  2.04s             1           0  20.60s          2024-06-17T13:51:25
+/opt/airflow/dags/airflow_process.py                           1           0  0.79s           2024-06-17T13:51:32
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:51:35
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T13:51:46
+================================================================================
+[2024-06-17T13:52:28.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         7578  6.22s             1           0  21.38s          2024-06-17T13:51:51
+/opt/airflow/dags/dbt.py                                       1           0  21.06s          2024-06-17T13:52:16
+/opt/airflow/dags/airflow_process.py                           1           0  1.05s           2024-06-17T13:52:03
+/opt/airflow/dags/dbtnew.py                                    1           0  0.45s           2024-06-17T13:52:17
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.20s           2024-06-17T13:52:06
+================================================================================
+[2024-06-17T13:52:59.223+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               7639  11.45s            1           0  21.06s          2024-06-17T13:52:16
+/opt/airflow/dags/coba_coba.py                                 1           0  20.41s          2024-06-17T13:52:42
+/opt/airflow/dags/airflow_process.py                           1           0  1.10s           2024-06-17T13:52:35
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.45s           2024-06-17T13:52:37
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T13:52:48
+================================================================================
+[2024-06-17T13:53:29.544+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.03s          2024-06-17T13:53:11
+/opt/airflow/dags/coba_coba.py         7699  16.75s            1           0  20.41s          2024-06-17T13:52:42
+/opt/airflow/dags/airflow_process.py                           1           0  1.51s           2024-06-17T13:53:06
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.68s           2024-06-17T13:53:08
+/opt/airflow/dags/dbtnew.py                                    1           0  0.37s           2024-06-17T13:53:18
+================================================================================
+[2024-06-17T13:53:59.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               7762  17.81s            1           0  24.03s          2024-06-17T13:53:11
+/opt/airflow/dags/coba_coba.py                                 1           0  22.58s          2024-06-17T13:53:35
+/opt/airflow/dags/airflow_process.py                           1           0  1.09s           2024-06-17T13:53:38
+/opt/airflow/dags/dbtnew.py                                    1           0  0.35s           2024-06-17T13:53:49
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T13:53:39
+================================================================================
+[2024-06-17T13:54:30.488+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  23.57s          2024-06-17T13:54:05
+/opt/airflow/dags/coba_coba.py         7813  24.99s            1           0  22.58s          2024-06-17T13:53:35
+/opt/airflow/dags/airflow_process.py                           1           0  2.30s           2024-06-17T13:54:11
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:54:20
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T13:54:11
+================================================================================
+[2024-06-17T13:55:00.823+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  26.01s          2024-06-17T13:54:31
+/opt/airflow/dags/dbt.py               7878  25.06s            1           0  23.57s          2024-06-17T13:54:05
+/opt/airflow/dags/airflow_process.py                           1           0  2.53s           2024-06-17T13:54:45
+/opt/airflow/dags/dbtnew.py                                    1           0  0.59s           2024-06-17T13:54:51
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.24s           2024-06-17T13:54:45
+================================================================================
+[2024-06-17T13:55:30.848+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  28.67s          2024-06-17T13:55:04
+/opt/airflow/dags/coba_coba.py                                 1           0  24.24s          2024-06-17T13:55:26
+/opt/airflow/dags/airflow_process.py                           1           0  1.28s           2024-06-17T13:55:16
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.51s           2024-06-17T13:55:17
+/opt/airflow/dags/dbtnew.py                                    1           0  0.41s           2024-06-17T13:55:22
+================================================================================
+[2024-06-17T13:56:01.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8066  4.75s             1           0  24.24s          2024-06-17T13:55:26
+/opt/airflow/dags/dbt.py                                       1           0  19.30s          2024-06-17T13:55:54
+/opt/airflow/dags/airflow_process.py                           1           0  1.57s           2024-06-17T13:55:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.97s           2024-06-17T13:55:53
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T13:55:48
+================================================================================
+[2024-06-17T13:56:14.055+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T13:56:15.150+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T13:56:31.928+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  29.53s          2024-06-17T13:56:26
+/opt/airflow/dags/dbt.py               8121  7.38s             1           0  19.30s          2024-06-17T13:55:54
+/opt/airflow/dags/airflow_process.py                           1           0  1.85s           2024-06-17T13:56:21
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T13:56:21
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T13:56:24
+================================================================================
+[2024-06-17T13:57:02.039+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8192  5.30s             1           0  29.53s          2024-06-17T13:56:26
+/opt/airflow/dags/dbt.py                                       1           0  23.83s          2024-06-17T13:56:48
+/opt/airflow/dags/airflow_process.py                           1           0  1.78s           2024-06-17T13:56:53
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T13:56:51
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T13:56:54
+================================================================================
+[2024-06-17T13:57:32.226+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  25.42s          2024-06-17T13:57:22
+/opt/airflow/dags/dbt.py               8216  13.59s            1           0  23.83s          2024-06-17T13:56:48
+/opt/airflow/dags/airflow_process.py                           1           0  1.38s           2024-06-17T13:57:24
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T13:57:26
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T13:57:22
+================================================================================
+[2024-06-17T14:30:35.913+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:30:36.118+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:30:36.143+0000] {manager.py:1201} ERROR - Processor for /opt/airflow/dags/coba_coba.py with PID 8301 started at 2024-06-17T13:57:54.709197+00:00 has timed out, killing it.
+[2024-06-17T14:30:41.543+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0           1  1961.43s        2024-06-17T14:30:36
+/opt/airflow/dags/dbt.py               8329  4.50s             1           0  23.05s          2024-06-17T13:57:41
+/opt/airflow/dags/airflow_process.py                           1           0  1.25s           2024-06-17T14:30:37
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.49s           2024-06-17T14:30:36
+/opt/airflow/dags/dbtnew.py                                    1           0  0.29s           2024-06-17T14:30:37
+================================================================================
+[2024-06-17T14:31:07.459+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T14:31:11.703+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8376  4.91s             0           1  1961.43s        2024-06-17T14:30:36
+/opt/airflow/dags/dbt.py                                       0          -1  30.41s          2024-06-17T14:31:07
+/opt/airflow/dags/airflow_process.py                           1           0  0.82s           2024-06-17T14:31:08
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:31:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.20s           2024-06-17T14:31:07
+================================================================================
+[2024-06-17T14:31:41.888+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               8441  4.34s             0          -1  30.41s          2024-06-17T14:31:07
+/opt/airflow/dags/coba_coba.py                                 1           0  22.11s          2024-06-17T14:31:28
+/opt/airflow/dags/airflow_process.py                           1           0  0.90s           2024-06-17T14:31:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:31:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.20s           2024-06-17T14:31:38
+================================================================================
+[2024-06-17T14:32:12.100+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8498  13.11s            1           0  22.11s          2024-06-17T14:31:28
+/opt/airflow/dags/dbt.py                                       1           0  20.39s          2024-06-17T14:31:57
+/opt/airflow/dags/airflow_process.py   8532  1.02s             1           0  0.90s           2024-06-17T14:31:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.35s           2024-06-17T14:32:09
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:31:40
+================================================================================
+[2024-06-17T14:32:42.292+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.81s          2024-06-17T14:32:21
+/opt/airflow/dags/dbt.py               8561  13.69s            1           0  20.39s          2024-06-17T14:31:57
+/opt/airflow/dags/airflow_process.py                           1           0  1.69s           2024-06-17T14:32:12
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.54s           2024-06-17T14:32:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.47s           2024-06-17T14:32:13
+================================================================================
+[2024-06-17T14:33:12.425+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  22.15s          2024-06-17T14:32:50
+/opt/airflow/dags/coba_coba.py                                 1           0  18.54s          2024-06-17T14:33:10
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.10s           2024-06-17T14:33:12
+/opt/airflow/dags/airflow_process.py                           1           0  0.96s           2024-06-17T14:32:44
+/opt/airflow/dags/dbtnew.py                                    1           0  0.39s           2024-06-17T14:32:44
+================================================================================
+[2024-06-17T14:33:43.152+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               8687  22.30s            1           0  22.15s          2024-06-17T14:32:50
+/opt/airflow/dags/coba_coba.py         8717  2.23s             1           0  18.54s          2024-06-17T14:33:10
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.10s           2024-06-17T14:33:12
+/opt/airflow/dags/airflow_process.py                           1           0  0.99s           2024-06-17T14:33:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T14:33:15
+================================================================================
+[2024-06-17T14:34:13.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  24.59s          2024-06-17T14:33:45
+/opt/airflow/dags/coba_coba.py                                 1           0  21.43s          2024-06-17T14:34:02
+/opt/airflow/dags/airflow_process.py                           1           0  1.52s           2024-06-17T14:33:47
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.58s           2024-06-17T14:33:46
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T14:33:47
+================================================================================
+[2024-06-17T14:34:44.259+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8853  10.88s            1           0  21.43s          2024-06-17T14:34:02
+/opt/airflow/dags/dbt.py                                       1           0  20.50s          2024-06-17T14:34:36
+/opt/airflow/dags/airflow_process.py                           1           0  0.67s           2024-06-17T14:34:18
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.49s           2024-06-17T14:34:17
+/opt/airflow/dags/dbtnew.py                                    1           0  0.18s           2024-06-17T14:34:18
+================================================================================
+[2024-06-17T14:35:14.836+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  20.99s          2024-06-17T14:34:54
+/opt/airflow/dags/dbt.py               8924  8.35s             1           0  20.50s          2024-06-17T14:34:36
+/opt/airflow/dags/airflow_process.py                           1           0  1.02s           2024-06-17T14:34:50
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T14:34:47
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T14:34:50
+================================================================================
+[2024-06-17T14:35:36.708+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:35:37.026+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:35:45.005+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         8979  20.49s            1           0  20.99s          2024-06-17T14:34:54
+/opt/airflow/dags/dbt.py                                       1           0  18.52s          2024-06-17T14:35:25
+/opt/airflow/dags/airflow_process.py                           1           0  1.04s           2024-06-17T14:35:21
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T14:35:18
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:35:21
+================================================================================
+[2024-06-17T14:36:15.063+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.49s          2024-06-17T14:35:47
+/opt/airflow/dags/dbt.py                                       1           0  16.21s          2024-06-17T14:36:11
+/opt/airflow/dags/airflow_process.py                           1           0  0.74s           2024-06-17T14:35:52
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T14:35:49
+/opt/airflow/dags/dbtnew.py                                    1           0  0.16s           2024-06-17T14:35:52
+================================================================================
+[2024-06-17T14:36:45.788+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.32s          2024-06-17T14:36:39
+/opt/airflow/dags/dbt.py               9155  4.08s             1           0  16.21s          2024-06-17T14:36:11
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T14:36:24
+/opt/airflow/dags/dbtnew.py                                    1           0  0.97s           2024-06-17T14:36:23
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T14:36:19
+================================================================================
+[2024-06-17T14:37:16.405+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  22.32s          2024-06-17T14:37:04
+/opt/airflow/dags/coba_coba.py         9218  6.21s             1           0  22.32s          2024-06-17T14:36:39
+/opt/airflow/dags/airflow_process.py                           1           0  1.24s           2024-06-17T14:36:56
+/opt/airflow/dags/dbtnew.py                                    1           0  0.91s           2024-06-17T14:36:55
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.20s           2024-06-17T14:36:50
+================================================================================
+[2024-06-17T14:37:46.684+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               9275  12.48s            1           0  22.32s          2024-06-17T14:37:04
+/opt/airflow/dags/coba_coba.py                                 1           0  16.77s          2024-06-17T14:37:26
+/opt/airflow/dags/airflow_process.py                           1           0  0.89s           2024-06-17T14:37:27
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T14:37:25
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T14:37:20
+================================================================================
+[2024-06-17T14:38:17.264+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  20.41s          2024-06-17T14:37:54
+/opt/airflow/dags/coba_coba.py                                 1           0  17.04s          2024-06-17T14:38:14
+/opt/airflow/dags/airflow_process.py                           1           0  1.65s           2024-06-17T14:37:59
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T14:37:56
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.19s           2024-06-17T14:37:50
+================================================================================
+[2024-06-17T14:38:47.954+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  19.31s          2024-06-17T14:38:43
+/opt/airflow/dags/coba_coba.py         9449  3.05s             1           0  17.04s          2024-06-17T14:38:14
+/opt/airflow/dags/airflow_process.py                           1           0  1.62s           2024-06-17T14:38:31
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.29s           2024-06-17T14:38:21
+/opt/airflow/dags/dbtnew.py                                    1           0  0.24s           2024-06-17T14:38:26
+================================================================================
+[2024-06-17T14:39:17.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  20.26s          2024-06-17T14:39:05
+/opt/airflow/dags/dbt.py               9512  3.61s             1           0  19.31s          2024-06-17T14:38:43
+/opt/airflow/dags/airflow_process.py                           1           0  1.14s           2024-06-17T14:39:03
+/opt/airflow/dags/dbtnew.py                                    1           0  0.92s           2024-06-17T14:38:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.57s           2024-06-17T14:38:52
+================================================================================
+[2024-06-17T14:39:48.247+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         9569  12.94s            1           0  20.26s          2024-06-17T14:39:05
+/opt/airflow/dags/dbt.py                                       1           0  17.22s          2024-06-17T14:39:31
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T14:39:34
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.47s           2024-06-17T14:39:23
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:39:29
+================================================================================
+[2024-06-17T14:40:18.556+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py               9627  16.85s            1           0  17.22s          2024-06-17T14:39:31
+/opt/airflow/dags/coba_coba.py                                 1           0  16.38s          2024-06-17T14:39:51
+/opt/airflow/dags/airflow_process.py                           1           0  1.49s           2024-06-17T14:40:07
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.50s           2024-06-17T14:39:54
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:39:59
+================================================================================
+[2024-06-17T14:40:36.860+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:40:37.216+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:40:48.973+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  18.26s          2024-06-17T14:40:19
+/opt/airflow/dags/coba_coba.py                                 1           0  17.89s          2024-06-17T14:40:39
+/opt/airflow/dags/airflow_process.py                           1           0  1.22s           2024-06-17T14:40:39
+/opt/airflow/dags/dbtnew.py                                    1           0  0.40s           2024-06-17T14:40:30
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.19s           2024-06-17T14:40:25
+================================================================================
+[2024-06-17T14:41:19.014+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  20.65s          2024-06-17T14:41:10
+/opt/airflow/dags/coba_coba.py         9804  8.22s             1           0  17.89s          2024-06-17T14:40:39
+/opt/airflow/dags/airflow_process.py                           1           0  1.44s           2024-06-17T14:41:11
+/opt/airflow/dags/dbtnew.py                                    1           0  0.27s           2024-06-17T14:41:00
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T14:40:55
+================================================================================
+[2024-06-17T14:41:49.733+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  23.13s          2024-06-17T14:41:33
+/opt/airflow/dags/dbt.py               9864  8.60s             1           0  20.65s          2024-06-17T14:41:10
+/opt/airflow/dags/airflow_process.py                           1           0  1.28s           2024-06-17T14:41:43
+/opt/airflow/dags/dbtnew.py                                    1           0  0.52s           2024-06-17T14:41:31
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.46s           2024-06-17T14:41:26
+================================================================================
+[2024-06-17T14:42:19.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py         9921  15.83s            1           0  23.13s          2024-06-17T14:41:33
+/opt/airflow/dags/dbt.py                                       1           0  18.96s          2024-06-17T14:42:00
+/opt/airflow/dags/airflow_process.py                           1           0  0.80s           2024-06-17T14:42:15
+/opt/airflow/dags/dbtnew.py                                    1           0  0.40s           2024-06-17T14:42:02
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.31s           2024-06-17T14:41:57
+================================================================================
+[2024-06-17T14:42:50.529+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  18.95s          2024-06-17T14:42:22
+/opt/airflow/dags/dbt.py                                       1           0  17.10s          2024-06-17T14:42:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.89s           2024-06-17T14:42:46
+/opt/airflow/dags/dbtnew.py                                    1           0  0.32s           2024-06-17T14:42:33
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.15s           2024-06-17T14:42:28
+================================================================================
+[2024-06-17T14:43:20.680+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  18.50s          2024-06-17T14:43:12
+/opt/airflow/dags/dbt.py              10100  3.05s             1           0  17.10s          2024-06-17T14:42:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.64s           2024-06-17T14:43:17
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T14:42:58
+/opt/airflow/dags/dbtnew.py                                    1           0  0.17s           2024-06-17T14:43:03
+================================================================================
+[2024-06-17T14:43:51.323+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  19.26s          2024-06-17T14:43:36
+/opt/airflow/dags/coba_coba.py        10158  8.74s             1           0  18.50s          2024-06-17T14:43:12
+/opt/airflow/dags/airflow_process.py                           1           0  0.58s           2024-06-17T14:43:48
+/opt/airflow/dags/dbtnew.py                                    1           0  0.50s           2024-06-17T14:43:35
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.26s           2024-06-17T14:43:28
+================================================================================
+[2024-06-17T14:44:21.823+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              10221  14.07s            1           0  19.26s          2024-06-17T14:43:36
+/opt/airflow/dags/coba_coba.py                                 1           0  17.59s          2024-06-17T14:44:00
+/opt/airflow/dags/dbtnew.py                                    1           0  0.64s           2024-06-17T14:44:06
+/opt/airflow/dags/airflow_process.py                           1           0  0.52s           2024-06-17T14:44:18
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T14:44:00
+================================================================================
+[2024-06-17T14:44:51.849+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  20.96s          2024-06-17T14:44:28
+/opt/airflow/dags/coba_coba.py                                 1           0  17.30s          2024-06-17T14:44:47
+/opt/airflow/dags/airflow_process.py                           1           0  1.14s           2024-06-17T14:44:50
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.17s           2024-06-17T14:44:30
+/opt/airflow/dags/dbtnew.py                                    1           0  0.16s           2024-06-17T14:44:36
+================================================================================
+[2024-06-17T14:45:22.185+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  21.64s          2024-06-17T14:45:20
+/opt/airflow/dags/coba_coba.py        10387  4.36s             1           0  17.30s          2024-06-17T14:44:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.93s           2024-06-17T14:45:22
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.28s           2024-06-17T14:45:01
+/opt/airflow/dags/dbtnew.py                                    1           0  0.21s           2024-06-17T14:45:07
+================================================================================
+[2024-06-17T14:45:37.010+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:45:37.145+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:45:53.099+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              10452  2.50s             1           0  21.64s          2024-06-17T14:45:20
+/opt/airflow/dags/coba_coba.py                                 1           0  21.02s          2024-06-17T14:45:38
+/opt/airflow/dags/airflow_process.py  10456  0.01s             1           0  0.93s           2024-06-17T14:45:22
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.35s           2024-06-17T14:45:32
+/opt/airflow/dags/dbtnew.py                                    1           0  0.17s           2024-06-17T14:45:38
+================================================================================
+[2024-06-17T14:46:20.679+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T14:46:23.189+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  30.08s          2024-06-17T14:46:20
+/opt/airflow/dags/coba_coba.py        10496  12.91s            1           0  21.02s          2024-06-17T14:45:38
+/opt/airflow/dags/airflow_process.py                           1           0  3.45s           2024-06-17T14:45:56
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.05s           2024-06-17T14:46:04
+/opt/airflow/dags/dbtnew.py                                    1           0  0.93s           2024-06-17T14:46:09
+================================================================================
+[2024-06-17T14:46:53.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              10578  2.86s             0          -1  30.08s          2024-06-17T14:46:20
+/opt/airflow/dags/coba_coba.py                                 1           0  24.84s          2024-06-17T14:46:35
+/opt/airflow/dags/airflow_process.py                           1           0  1.46s           2024-06-17T14:46:28
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.56s           2024-06-17T14:46:35
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T14:46:40
+================================================================================
+[2024-06-17T14:47:24.052+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        10607  18.55s            1           0  24.84s          2024-06-17T14:46:35
+/opt/airflow/dags/dbt.py                                       1           0  18.90s          2024-06-17T14:47:09
+/opt/airflow/dags/airflow_process.py                           1           0  0.98s           2024-06-17T14:46:59
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T14:47:10
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.24s           2024-06-17T14:47:09
+================================================================================
+[2024-06-17T14:47:54.694+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  21.30s          2024-06-17T14:47:26
+/opt/airflow/dags/dbt.py              10696  14.52s            1           0  18.90s          2024-06-17T14:47:09
+/opt/airflow/dags/airflow_process.py                           1           0  0.76s           2024-06-17T14:47:31
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T14:47:40
+/opt/airflow/dags/dbtnew.py                                    1           0  0.20s           2024-06-17T14:47:41
+================================================================================
+[2024-06-17T14:48:25.475+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  20.98s          2024-06-17T14:48:17
+/opt/airflow/dags/dbt.py                                       1           0  18.34s          2024-06-17T14:47:58
+/opt/airflow/dags/airflow_process.py                           1           0  2.01s           2024-06-17T14:48:03
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.62s           2024-06-17T14:48:11
+/opt/airflow/dags/dbtnew.py                                    1           0  0.31s           2024-06-17T14:48:12
+================================================================================
+[2024-06-17T14:48:55.867+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        10869  7.46s             1           0  20.98s          2024-06-17T14:48:17
+/opt/airflow/dags/dbt.py                                       1           0  20.11s          2024-06-17T14:48:48
+/opt/airflow/dags/airflow_process.py                           1           0  0.71s           2024-06-17T14:48:35
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.30s           2024-06-17T14:48:42
+/opt/airflow/dags/dbtnew.py                                    1           0  0.27s           2024-06-17T14:48:43
+================================================================================
+[2024-06-17T14:49:26.388+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  22.92s          2024-06-17T14:49:11
+/opt/airflow/dags/dbt.py              10933  6.95s             1           0  20.11s          2024-06-17T14:48:48
+/opt/airflow/dags/airflow_process.py                           1           0  1.06s           2024-06-17T14:49:07
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.77s           2024-06-17T14:49:13
+/opt/airflow/dags/dbtnew.py                                    1           0  0.75s           2024-06-17T14:49:14
+================================================================================
+[2024-06-17T14:49:50.523+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T14:49:56.473+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  31.00s          2024-06-17T14:49:50
+/opt/airflow/dags/coba_coba.py        10968  14.70s            1           0  22.92s          2024-06-17T14:49:11
+/opt/airflow/dags/dbtnew.py                                    1           0  2.13s           2024-06-17T14:49:54
+/opt/airflow/dags/airflow_process.py                           1           0  1.70s           2024-06-17T14:49:39
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.65s           2024-06-17T14:49:52
+================================================================================
+[2024-06-17T14:50:12.799+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/coba_coba.py exited with return code 1.
+[2024-06-17T14:50:26.589+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 0          -1  31.03s          2024-06-17T14:50:12
+/opt/airflow/dags/dbt.py              11017  5.17s             0          -1  31.00s          2024-06-17T14:49:50
+/opt/airflow/dags/airflow_process.py                           1           0  2.14s           2024-06-17T14:50:12
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.34s           2024-06-17T14:50:24
+/opt/airflow/dags/dbtnew.py                                    1           0  1.18s           2024-06-17T14:50:26
+================================================================================
+[2024-06-17T14:50:37.531+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:50:39.053+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:50:52.763+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T14:50:57.374+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  31.16s          2024-06-17T14:50:52
+/opt/airflow/dags/coba_coba.py        11062  11.94s            0          -1  31.03s          2024-06-17T14:50:12
+/opt/airflow/dags/airflow_process.py                           1           0  2.02s           2024-06-17T14:50:45
+/opt/airflow/dags/dbt_fix.py                                   1           0  1.20s           2024-06-17T14:50:56
+/opt/airflow/dags/dbtnew.py           11092  0.01s             1           0  1.18s           2024-06-17T14:50:26
+================================================================================
+[2024-06-17T14:51:27.809+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              11143  4.84s             0          -1  31.16s          2024-06-17T14:50:52
+/opt/airflow/dags/coba_coba.py                                 1           0  28.57s          2024-06-17T14:51:13
+/opt/airflow/dags/airflow_process.py                           1           0  2.31s           2024-06-17T14:51:18
+/opt/airflow/dags/dbtnew.py                                    1           0  1.05s           2024-06-17T14:50:58
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.87s           2024-06-17T14:51:27
+================================================================================
+[2024-06-17T14:51:53.547+0000] {manager.py:1017} ERROR - Processor for /opt/airflow/dags/dbt.py exited with return code 1.
+[2024-06-17T14:51:58.293+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       0          -1  30.58s          2024-06-17T14:51:53
+/opt/airflow/dags/coba_coba.py        11182  13.52s            1           0  28.57s          2024-06-17T14:51:13
+/opt/airflow/dags/airflow_process.py                           1           0  1.23s           2024-06-17T14:51:54
+/opt/airflow/dags/dbtnew.py                                    1           0  0.95s           2024-06-17T14:51:30
+/opt/airflow/dags/dbt_fix.py          11229  0.01s             1           0  0.87s           2024-06-17T14:51:27
+================================================================================
+[2024-06-17T14:52:28.743+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              11264  5.04s             0          -1  30.58s          2024-06-17T14:51:53
+/opt/airflow/dags/coba_coba.py                                 1           0  24.25s          2024-06-17T14:52:09
+/opt/airflow/dags/airflow_process.py                           1           0  1.54s           2024-06-17T14:52:26
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.77s           2024-06-17T14:51:59
+/opt/airflow/dags/dbtnew.py                                    1           0  0.62s           2024-06-17T14:52:01
+================================================================================
+[2024-06-17T14:52:58.890+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        11310  19.18s            1           0  24.25s          2024-06-17T14:52:09
+/opt/airflow/dags/dbt.py                                       1           0  23.21s          2024-06-17T14:52:46
+/opt/airflow/dags/airflow_process.py                           1           0  1.06s           2024-06-17T14:52:57
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.37s           2024-06-17T14:52:29
+/opt/airflow/dags/dbtnew.py                                    1           0  0.24s           2024-06-17T14:52:31
+================================================================================
+[2024-06-17T14:53:29.102+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              11391  11.20s            1           0  23.21s          2024-06-17T14:52:46
+/opt/airflow/dags/coba_coba.py                                 1           0  19.78s          2024-06-17T14:52:59
+/opt/airflow/dags/airflow_process.py                           1           0  0.71s           2024-06-17T14:53:28
+/opt/airflow/dags/dbtnew.py                                    1           0  0.48s           2024-06-17T14:53:02
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.37s           2024-06-17T14:53:00
+================================================================================
+[2024-06-17T14:53:59.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  17.52s          2024-06-17T14:53:47
+/opt/airflow/dags/dbt.py                                       1           0  15.35s          2024-06-17T14:53:33
+/opt/airflow/dags/airflow_process.py  11496  0.00s             1           0  0.71s           2024-06-17T14:53:28
+/opt/airflow/dags/dbtnew.py                                    1           0  0.44s           2024-06-17T14:53:34
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.43s           2024-06-17T14:53:33
+================================================================================
+[2024-06-17T14:54:29.834+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        11557  12.39s            1           0  17.52s          2024-06-17T14:53:47
+/opt/airflow/dags/dbt.py                                       1           0  15.40s          2024-06-17T14:54:19
+/opt/airflow/dags/airflow_process.py                           1           0  0.60s           2024-06-17T14:54:00
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.17s           2024-06-17T14:54:04
+/opt/airflow/dags/dbtnew.py                                    1           0  0.14s           2024-06-17T14:54:05
+================================================================================
+[2024-06-17T14:54:59.969+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  17.52s          2024-06-17T14:54:34
+/opt/airflow/dags/dbt.py              11622  10.39s            1           0  15.40s          2024-06-17T14:54:19
+/opt/airflow/dags/airflow_process.py                           1           0  0.72s           2024-06-17T14:54:31
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T14:54:36
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.15s           2024-06-17T14:54:34
+================================================================================
+[2024-06-17T14:55:30.270+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py                                       1           0  17.26s          2024-06-17T14:55:06
+/opt/airflow/dags/coba_coba.py                                 1           0  17.00s          2024-06-17T14:55:22
+/opt/airflow/dags/airflow_process.py                           1           0  0.52s           2024-06-17T14:55:02
+/opt/airflow/dags/dbtnew.py                                    1           0  0.41s           2024-06-17T14:55:07
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T14:55:07
+================================================================================
+[2024-06-17T14:55:37.668+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T14:55:37.812+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-06-17T14:56:00.545+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        11791  7.87s             1           0  17.00s          2024-06-17T14:55:22
+/opt/airflow/dags/dbt.py                                       1           0  14.94s          2024-06-17T14:55:51
+/opt/airflow/dags/airflow_process.py                           1           0  0.57s           2024-06-17T14:55:32
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T14:55:38
+/opt/airflow/dags/dbtnew.py                                    1           0  0.14s           2024-06-17T14:55:38
+================================================================================
+[2024-06-17T14:56:31.109+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  16.39s          2024-06-17T14:56:09
+/opt/airflow/dags/dbt.py              11854  8.76s             1           0  14.94s          2024-06-17T14:55:51
+/opt/airflow/dags/airflow_process.py                           1           0  0.77s           2024-06-17T14:56:04
+/opt/airflow/dags/dbtnew.py                                    1           0  0.23s           2024-06-17T14:56:08
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.14s           2024-06-17T14:56:08
+================================================================================
+[2024-06-17T14:57:01.932+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  18.54s          2024-06-17T14:56:57
+/opt/airflow/dags/dbt.py                                       1           0  15.29s          2024-06-17T14:56:37
+/opt/airflow/dags/airflow_process.py                           1           0  0.69s           2024-06-17T14:56:34
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.55s           2024-06-17T14:56:39
+/opt/airflow/dags/dbtnew.py                                    1           0  0.50s           2024-06-17T14:56:39
+================================================================================
+[2024-06-17T14:57:32.330+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        12022  4.08s             1           0  18.54s          2024-06-17T14:56:57
+/opt/airflow/dags/dbt.py                                       1           0  17.85s          2024-06-17T14:57:25
+/opt/airflow/dags/airflow_process.py                           1           0  0.60s           2024-06-17T14:57:05
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.32s           2024-06-17T14:57:09
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T14:57:09
+================================================================================
+[2024-06-17T14:58:02.826+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              12085  7.11s             1           0  17.85s          2024-06-17T14:57:25
+/opt/airflow/dags/coba_coba.py                                 1           0  15.77s          2024-06-17T14:57:44
+/opt/airflow/dags/airflow_process.py                           1           0  1.07s           2024-06-17T14:57:36
+/opt/airflow/dags/dbtnew.py                                    1           0  0.33s           2024-06-17T14:57:40
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.19s           2024-06-17T14:57:40
+================================================================================
+[2024-06-17T14:58:33.583+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  18.56s          2024-06-17T14:58:32
+/opt/airflow/dags/dbt.py                                       1           0  15.98s          2024-06-17T14:58:11
+/opt/airflow/dags/airflow_process.py                           1           0  0.73s           2024-06-17T14:58:07
+/opt/airflow/dags/dbtnew.py                                    1           0  0.25s           2024-06-17T14:58:11
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.19s           2024-06-17T14:58:10
+================================================================================
+[2024-06-17T14:59:04.091+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        12252  1.02s             1           0  18.56s          2024-06-17T14:58:32
+/opt/airflow/dags/dbt.py                                       1           0  17.49s          2024-06-17T14:58:59
+/opt/airflow/dags/airflow_process.py                           1           0  1.15s           2024-06-17T14:58:39
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.22s           2024-06-17T14:58:41
+/opt/airflow/dags/dbtnew.py                                    1           0  0.20s           2024-06-17T14:58:41
+================================================================================
+[2024-06-17T14:59:34.655+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt.py              12315  4.24s             1           0  17.49s          2024-06-17T14:58:59
+/opt/airflow/dags/coba_coba.py                                 1           0  17.14s          2024-06-17T14:59:20
+/opt/airflow/dags/airflow_process.py                           1           0  0.89s           2024-06-17T14:59:10
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.44s           2024-06-17T14:59:12
+/opt/airflow/dags/dbtnew.py                                    1           0  0.26s           2024-06-17T14:59:12
+================================================================================
+[2024-06-17T15:00:05.427+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py        12378  15.11s            1           0  17.14s          2024-06-17T14:59:20
+/opt/airflow/dags/dbt.py                                       1           0  16.76s          2024-06-17T14:59:47
+/opt/airflow/dags/airflow_process.py                           1           0  0.71s           2024-06-17T14:59:41
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.18s           2024-06-17T14:59:42
+/opt/airflow/dags/dbtnew.py                                    1           0  0.15s           2024-06-17T14:59:43
+================================================================================
+[2024-06-17T15:00:35.601+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/coba_coba.py                                 1           0  18.95s          2024-06-17T15:00:09
+/opt/airflow/dags/dbt.py                                       1           0  17.83s          2024-06-17T15:00:35
+/opt/airflow/dags/airflow_process.py                           1           0  0.62s           2024-06-17T15:00:12
+/opt/airflow/dags/dbtnew.py                                    1           0  0.28s           2024-06-17T15:00:14
+/opt/airflow/dags/dbt_fix.py                                   1           0  0.27s           2024-06-17T15:00:13
+================================================================================
+[2024-06-17T15:00:38.474+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-06-17T15:00:39.604+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
