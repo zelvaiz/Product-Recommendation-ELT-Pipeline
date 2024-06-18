@@ -18,8 +18,11 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 ![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT_Architecture.png) 
 
 ## Start Docker Compose
-- git clone this code to local
-- run docker compose
+- Git clone this code to local
+    ```
+    https://github.com/ahmadalpadani/Project-Capstone.git
+    ```
+- Run docker compose
 
   ```
   docker compose up -d
