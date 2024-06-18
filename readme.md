@@ -15,7 +15,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 
 ## ELT Data Architecture 
 
-![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT%20Archicteture.png) 
+![data_architecture](https://github.com/ahmadalpadani/Project-Capstone/blob/main/assets/ELT_Architecture.png) 
 
 ## Start Docker Compose
 - git clone this code to local
@@ -174,13 +174,11 @@ sources:
   - name: capstone_data
     schema: Project_Capstone
     tables: 
-      - name: user
-      - name: product
+      - name: user2
       - name: purchased
       - name: cart
       - name: country
       - name: gender
-      - name: tags
       - name: review
       - name: product2
       - name: tags2
@@ -204,7 +202,7 @@ WITH source AS (
         email,
         CAST(gender_id AS INTEGER) AS gender_id,
         CAST(country_id AS INTEGER) AS country_id
-    FROM {{ source('capstone_data', 'user') }}
+    FROM {{ source('capstone_data', 'user2') }}
     WHERE user_id IS NOT NULL
 )
 
