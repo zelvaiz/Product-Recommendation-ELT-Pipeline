@@ -20,7 +20,7 @@ Untuk menunjang peningkatan bisnis perusahaan TechGear, perusahaan berusaha meng
 ## Start Docker Compose
 - Git clone this code to local
     ```
-    https://github.com/ahmadalpadani/Project-Capstone.git
+    https://github.com/ahmadalpadani/Project-Capstone.git](https://github.com/zelvaiz/Product-Recommendation-ELT-Pipeline)
     ```
 - Run docker compose
 
